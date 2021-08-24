@@ -3,465 +3,180 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Mobil​e application development, Make things you love., Start running today, webuilddigital., Mobile App Development, Our Team, Using design to improve product development, Get in touch">
+    <meta name="keywords" content="Dental Care Services, Preventive services include:, About Our Dental Clinicand why choose us?, Our Services, GeneralDentist &amp; Prosthodontist, High Quality Treatment, contact us">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Home</title>
-        <link rel="stylesheet"  href="{{url_for('static',filename='css/nicepage.css') }}" media="screen">
-<link rel="stylesheet" href="{{url_for('static',filename='css/Home.css') }}" media="screen">
-   <script src="{{url_for('static', filename='js/jquery.js')}}" class="u-script" type="text/javascript" defer=""></script>
-  <script src="{{url_for('static', filename='js/nicepage.js')}}" class="u-script" type="text/javascript" defer=""></script>
-
-    <link rel="icon" href="{{url_for('static',filename='images/Untitled_Artwork_2.png')}}">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Home.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 3.23.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    
+    
+    
+    
     
     
     
     
     
     <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "Aster",
-		"logo": "images/Untitled.png"
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Oregene"
 }</script>
-    <meta name="theme-color" content="#803bec">
+    <meta name="theme-color" content="#4867d6">
     <meta property="og:title" content="Home">
-    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-<style type="text/css">
-
-::-webkit-scrollbar {
-  width: 6px;
-  height: 40%;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px white; 
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #FAC05B; 
-  border-radius: 10px;
-  height: 20%;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #d49c00; 
-}
-
-  #snackbar {
-  visibility: hidden;
-  min-width: 250px;
-  margin-left: -125px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  border-radius: 2px;
-  padding: 16px;
-  position: fixed;
-  z-index: 1;
-  left: 50%;
-  bottom: 30px;
-  font-size: 17px;
-}
-
-#snackbar.show {
-  visibility: visible;
-  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  animation: fadein 0.5s, fadeout 0.5s 2.5s;
-}
-
-#navbar{
-
-  position: fixed;
-}
-</style>
-
-</head>
-
-  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body">
-
-
-<script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var curre ntScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("sec-8624").style.top = "0";
-  } else {
-    document.getElementById("sec-8624").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-
-  // 20 is an arbitrary number here, just to make you think if you need the prevScrollpos variable:
-  if (currentScrollPos > 20) {
-    // I am using 'display' instead of 'top':
-    document.getElementById("sec-8624").style.display = "none";
-  } else {
-    document.getElementById("sec-8624").style.display = "initial";
-  }
-}
-
-</script>
-
-
-
-    <header class="u-header u-valign-middle u-header" id="sec-8624" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><a href="Home.html#sec-b1b6" data-page-id="508795" class="u-image u-logo u-image-1" data-image-width="1920" data-image-height="907" title="Home">
-        <img src= "{{ url_for('static',filename='images/Untitled.png') }}"
- class="u-logo-image u-logo-image-1" data-image-width="200.1772">
-      </a><nav data-position="" class="u-align-right u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="XL">
-        <div  class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
-          <a class="u-button-style u-custom-active-border-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-grey-80" href="#" style="padding: 2px 17px; font-size: calc(1em + 4px);">
-            <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+  </head>
+  <body class="u-body"><header class="u-clearfix u-header u-sticky u-sticky-4473 u-white u-header" id="sec-ae8a"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-align-right u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="XS">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+            <a class="u-button-style u-custom-active-border-color u-custom-border u-custom-border-color u-custom-borders u-custom-color-1 u-custom-hover-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
 </symbol>
 </defs></svg>
-          </a>
-        </div>
-        <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Home.html" style="padding: 10px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Page-4.html" style="padding: 10px 20px;">About Us</a>
-</li><li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" style="padding: 10px 20px;">Contact Us</a>
-</li><li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" style="padding: 10px 20px;">Donate</a>
-</li><li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Shop.html" style="padding: 10px 20px;">Page 1</a>
-</li><li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="ShopSpecific.html" style="padding: 10px 20px;">Page 1</a>
-</li><li class="u-nav-item"><a class="u-active-grey-5 u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Page-1.html" style="padding: 10px 20px;">Page 1</a>
-</li></ul>
-        </div>
-        <div class="u-custom-menu u-nav-container-collapse">
-          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-            <div class="u-sidenav-overflow">
-              <div class="u-menu-close"></div>
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html" style="padding: 18px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#carousel_27c0" style="padding: 18px 20px;">About Us</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#sec-a9ff" style="padding: 18px 20px;">Contact Us</a>
-</li><li class="u-nav-item"><b><a class="u-button-style u-nav-link" href="Donate.html#sec-41d8" style="padding: 18px 20px;">Donate</a></b>
-</li>
-<li class="u-nav-item"><b><a class="u-button-style u-nav-link" href="Shop.html#sec-4e2d" style="padding: 18px 20px;">Shop</a></b>
-</li>
-
-</ul>
-            </div>
+            </a>
           </div>
-          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-        </div>
-      </nav><nav class="u-align-right u-hidden-xs u-menu u-menu-dropdown u-offcanvas u-menu-2" data-responsive-from="MD">
-        <div class="menu-collapse" style="font-size: 1.125rem;">
-          <a class="u-button-style u-nav-link" href="#">
-            <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-</symbol>
-</defs></svg>
-          </a>
-        </div>
-        <div  class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#sec-b1b6" data-page-id="508795">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#carousel_27c0" data-page-id="508795">About Us</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#sec-6626" data-page-id="508795">Our Team</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#sec-a9ff" data-page-id="508795">Contact Us</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#carousel_6589" data-page-id="508795">Sponsor</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Donate.html#sec-41d8">Donate   </a>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-spacing-30 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-custom-color-1 u-border-hover-custom-color-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-custom-color-1 u-text-grey-90 u-text-hover-grey-90" href="Home.html#carousel_4730" data-page-id="51435284" style="padding: 10px 0px;">Contact Us</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-custom-color-1 u-border-hover-custom-color-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-custom-color-1 u-text-grey-90 u-text-hover-grey-90" href="Home.html#carousel_4c38" data-page-id="51435284" style="padding: 10px 0px;">Invest</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-custom-color-1 u-border-hover-custom-color-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-custom-color-1 u-text-grey-90 u-text-hover-grey-90" href="Home.html#carousel_8ae8" data-page-id="51435284" style="padding: 10px 0px;">About Us</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-custom-color-1 u-border-hover-custom-color-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-custom-color-1 u-text-grey-90 u-text-hover-grey-90" href="Home.html#sec-31df" data-page-id="51435284" style="padding: 10px 0px;">Rebone</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-custom-color-1 u-border-hover-custom-color-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-custom-color-1 u-text-grey-90 u-text-hover-grey-90" href="Home.html" style="padding: 10px 0px;">Home</a>
 </li></ul>
-        </div>
-        <div class="u-custom-menu u-nav-container-collapse">
-          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-            <div class="u-sidenav-overflow">
-              <div class="u-menu-close"></div>
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#sec-b1b6" data-page-id="508795">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#carousel_27c0" data-page-id="508795">About Us</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#sec-6626" data-page-id="508795">Our Team</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#sec-a9ff" data-page-id="508795">Contact Us</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#carousel_6589" data-page-id="508795">Sponsor</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Donate.html">Donate</a>
-</li></ul>
-            </div>
           </div>
-          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-        </div>
-      </nav><nav class="u-align-left u-hidden-xs u-menu u-menu-dropdown u-offcanvas u-menu-3" data-responsive-from="MD">
-        <div class="menu-collapse" style="font-size: 1.125rem;">
-          <a class="u-button-style u-custom-text-decoration u-nav-link" href="#">
-            <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-</symbol>
-</defs></svg>
-          </a>
-        </div>
-        <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-unstyled u-nav-5"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Shop.html#sec-4e2d" data-page-id="516596" style="padding: 13px 20px;">Shop</a>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#carousel_4730" data-page-id="51435284" style="padding: 10px 0px;">Contact Us</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#carousel_4c38" data-page-id="51435284" style="padding: 10px 0px;">Invest</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#carousel_8ae8" data-page-id="51435284" style="padding: 10px 0px;">About Us</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html#sec-31df" data-page-id="51435284" style="padding: 10px 0px;">Rebone</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html" style="padding: 10px 0px;">Home</a>
 </li></ul>
-        </div>
-        <div class="u-custom-menu u-nav-container-collapse">
-          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-            <div class="u-sidenav-overflow">
-              <div class="u-menu-close"></div>
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-6"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Shop.html#sec-4e2d" data-page-id="516596" style="padding: 10px 20px;">Shop</a>
-</li></ul>
-            </div>
-          </div>
-          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-        </div>
-      </nav></header> 
-    <section class="u-clearfix u-section-1" src="" id="sec-b1b6">
-      <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-        <div class="u-layout">
-          <div class="u-layout-row">
-            <div class="u-align-center u-container-style u-layout-cell u-left-cell u-palette-1-light-1 u-size-28-md u-size-28-sm u-size-28-xs u-size-29-xl u-size-30-lg u-layout-cell-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
-              <div class="u-container-layout u-container-layout-1">
-                <blockquote class="u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">1 out of 8 teenagers REPORTS severe domestic abuse in Israel<br>
-                </blockquote>
-                <div class="u-border-4 u-border-custom-color-1 u-line u-line-horizontal u-line-1"></div>
-                <br>
-                <a href="tel:+972533408990" class="u-align-center u-border-none u-btn u-btn-round u-button-style u-hover-palette-4-base u-palette-1-dark-1 u-radius-50 u-btn-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""><span class="u-icon"><svg class="u-svg-content" viewBox="0 0 513.64 513.64" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72 c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68 c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44 l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z"></path></svg><img></span>&nbsp;Call now
-                </a>
-                <a href="tel:+972533408990" class="u-active-none u-align-center u-btn u-btn-rectangle u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2"><span class="u-icon"><svg class="u-svg-content" viewBox="0 0 405.333 405.333" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z"></path></svg><img></span>&nbsp;or dial <u>+972533408990</u>
-                </a>
-             
-                <div class="fr-view u-clearfix u-rich-text u-text u-text-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
-                  <p style="text-align: center; position: absolute; bottom: 10%; left: 8%">‎‎‎‎‎‎‎Help us by donating to allow us to bring teenagers the coping mechanisms they need.<br>&nbsp;the coping mechanisms they need.&nbsp;
-                  </p>
-                </div>
-                <a href="/Donate.html" class="u-align-center u-border-none u-btn u-btn-round u-button-style u-hover-custom-color-2 u-palette-1-base u-radius-50 u-btn-3" data-animation-name="zoomIn" data-animation-duration="2000" data-animation-delay="0" data-animation-direction="">Make an impact now!</a>
               </div>
             </div>
-            <div class="u-align-left u-container-style u-layout-cell u-right-cell u-shape-rectangle u-size-30-lg u-size-31-xl u-size-32-md u-size-32-sm u-size-32-xs u-white u-layout-cell-2" data-animation-name="slideIn" data-animation-duration="1250" data-animation-delay="750" data-animation-direction="Right">
-              <div class="u-container-layout u-container-layout-2">
-                <div class="u-carousel u-expanded-width u-gallery u-gallery-slider u-layout-carousel u-lightbox u-no-transition u-show-text-on-hover u-gallery-1" data-interval="5000" data-u-ride="carousel" id="carousel-e356">
-                  <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
-                    <li data-u-target="#carousel-e356" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                    <li data-u-target="#carousel-e356" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                    <li data-u-target="#carousel-e356" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                    <li data-u-target="#carousel-e356" data-u-slide-to="3" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
-                  </ol>
-                  <div class="u-carousel-inner u-gallery-inner" role="listbox">
-                    <div class="u-active u-carousel-item u-effect-fade u-gallery-item u-carousel-item-1" data-image-width="1350" data-image-height="1080">
-                      <div class="u-back-slide">
-                        <img class="u-back-image u-expanded" src="{{url_for('static', filename='images/Domestic.png')}}">
-                      </div>
-                      <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-1">
-                        <h3 class="u-gallery-heading"></h3>
-                        <p class="u-gallery-text"></p>
-                      </div>
-                      <style data-mode="XL" data-visited="true"></style>
-                      <style data-mode="LG"></style>
-                      <style data-mode="MD"></style>
-                      <style data-mode="SM"></style>
-                      <style data-mode="XS"></style>
-                    </div>
-                    <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-2">
-                      <div class="u-back-slide" data-image-width="648" data-image-height="864">
-                        <img class="u-back-image u-expanded" src="{{url_for('static',filename='images/MT.jpg')}}">
-                      </div>
-                      <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-2">
-                        <h3 class="u-gallery-heading"></h3>
-                        <p class="u-gallery-text">Click to view in fullscreen</p>
-                      </div>
-                    </div>
-                    <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-3">
-                      <div class="u-back-slide" data-image-width="1377" data-image-height="784">
-                        <img class="u-back-image u-expanded" src="{{url_for('static',filename='images/hands.jpg')}}">
-                      </div>
-                      <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-3">
-                        <h3 class="u-gallery-heading"></h3>
-                        <p class="u-gallery-text">Click to view in fullscreen<br>
-                        </p>
-                      </div>
-                    </div>
-                    <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-4" data-image-width="648" data-image-height="864">
-                      <div class="u-back-slide" data-image-width="486" data-image-height="864">
-                        <img class="u-back-image u-expanded" src="{{url_for('static',filename='images/work.png')}}">
-                      </div>
-                      <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-4">
-                        <h3 class="u-gallery-heading"></h3>
-                        <p class="u-gallery-text"></p>
-                      </div>
-                      <style data-mode="XL" data-visited="true"></style>
-                      <style data-mode="LG"></style>
-                      <style data-mode="MD"></style>
-                      <style data-mode="SM"></style>
-                      <style data-mode="XS"></style>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <img class="u-image u-image-default u-image-1" src="images/31199699-c97b-4b88-b9ba-5162ec1145f91.jpg" alt="" data-image-width="1600" data-image-height="596">
+      </div></header> 
+    <section class="u-clearfix u-image u-section-1" id="sec-d87c" data-image-width="2055" data-image-height="978">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-col">
+              <div class="u-size-30">
+                <div class="u-layout-col">
+                  <div class="u-container-style u-layout-cell u-left-cell u-right-cell u-size-60 u-layout-cell-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
+                    <div class="u-container-layout u-valign-bottom u-container-layout-1">
+                      <h2 class="u-text u-text-1" data-animation-name="slideIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="Down">Restoring the health of tissues and organs</h2>
                     </div>
                   </div>
-                  <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-icon-circle u-opacity u-opacity-70 u-text-palette-1-base u-carousel-control-1" href="#carousel-e356" role="button" data-u-slide="prev">
-                    <span aria-hidden="true">
-                      <svg viewBox="0 0 129 129"><path d="m64.5,122.6c32,0 58.1-26 58.1-58.1s-26-58-58.1-58-58,26-58,58 26,58.1 58,58.1zm0-108c27.5,5.32907e-15 49.9,22.4 49.9,49.9s-22.4,49.9-49.9,49.9-49.9-22.4-49.9-49.9 22.4-49.9 49.9-49.9z"></path><path d="m70,93.5c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2 1.6-1.6 1.6-4.2 0-5.8l-23.5-23.5 23.5-23.5c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-26.4,26.4c-0.8,0.8-1.2,1.8-1.2,2.9s0.4,2.1 1.2,2.9l26.4,26.4z"></path></svg>
-                    </span>
-                    <span class="sr-only">
-                      <svg viewBox="0 0 129 129"><path d="m64.5,122.6c32,0 58.1-26 58.1-58.1s-26-58-58.1-58-58,26-58,58 26,58.1 58,58.1zm0-108c27.5,5.32907e-15 49.9,22.4 49.9,49.9s-22.4,49.9-49.9,49.9-49.9-22.4-49.9-49.9 22.4-49.9 49.9-49.9z"></path><path d="m70,93.5c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2 1.6-1.6 1.6-4.2 0-5.8l-23.5-23.5 23.5-23.5c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-26.4,26.4c-0.8,0.8-1.2,1.8-1.2,2.9s0.4,2.1 1.2,2.9l26.4,26.4z"></path></svg>
-                    </span>
-                  </a>
-                  <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-icon-circle u-opacity u-opacity-70 u-text-palette-1-base u-carousel-control-2" href="#carousel-e356" role="button" data-u-slide="next">
-                    <span aria-hidden="true">
-                      <svg viewBox="0 0 129 129"><path d="M64.5,122.6c32,0,58.1-26,58.1-58.1S96.5,6.4,64.5,6.4S6.4,32.5,6.4,64.5S32.5,122.6,64.5,122.6z M64.5,14.6    c27.5,0,49.9,22.4,49.9,49.9S92,114.4,64.5,114.4S14.6,92,14.6,64.5S37,14.6,64.5,14.6z"></path><path d="m51.1,93.5c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l26.4-26.4c0.8-0.8 1.2-1.8 1.2-2.9 0-1.1-0.4-2.1-1.2-2.9l-26.4-26.4c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l23.5,23.5-23.5,23.5c-1.6,1.6-1.6,4.2 0,5.8z"></path></svg>
-                    </span>
-                    <span class="sr-only">
-                      <svg viewBox="0 0 129 129"><path d="M64.5,122.6c32,0,58.1-26,58.1-58.1S96.5,6.4,64.5,6.4S6.4,32.5,6.4,64.5S32.5,122.6,64.5,122.6z M64.5,14.6    c27.5,0,49.9,22.4,49.9,49.9S92,114.4,64.5,114.4S14.6,92,14.6,64.5S37,14.6,64.5,14.6z"></path><path d="m51.1,93.5c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l26.4-26.4c0.8-0.8 1.2-1.8 1.2-2.9 0-1.1-0.4-2.1-1.2-2.9l-26.4-26.4c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l23.5,23.5-23.5,23.5c-1.6,1.6-1.6,4.2 0,5.8z"></path></svg>
-                    </span>
-                  </a>
+                </div>
+              </div>
+              <div class="u-size-30">
+                <div class="u-layout-row">
+                  <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-2">
+                    <div class="u-container-layout u-valign-top u-container-layout-2">
+                      <p class="u-text u-text-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Oregene is a company dedicated to develop approaches for tissue and organ regeneration.
+Oregene combines knowledge in advance biomaterials, protein engineering, and the 3D-tissue modeling.
+
+
+</p>
+                    </div>
+                  </div>
+                  <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-3">
+                    <div class="u-container-layout u-container-layout-3">
+                      <p class="u-text u-text-3" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Oregene utilizes novel technologies to induce the building blocks of the tissues, namely stem cells, to initiate tissue and organ repair.</p>
+                      <a href="https://nicepage.com/k/consulting-website-templates" class="u-btn u-button-style u-none u-text-custom-color-1 u-text-hover-custom-color-3 u-btn-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0"><span class="u-icon u-text-palette-2-base u-icon-1"><svg class="u-svg-content" viewBox="0 0 412.72 412.72" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M404.72,82.944c-0.027,0-0.054,0-0.08,0h0h-27.12v-9.28c0.146-3.673-2.23-6.974-5.76-8    c-18.828-4.934-38.216-7.408-57.68-7.36c-32,0-75.6,7.2-107.84,40c-32-33.12-75.92-40-107.84-40    c-19.464-0.048-38.852,2.426-57.68,7.36c-3.53,1.026-5.906,4.327-5.76,8v9.2H8c-4.418,0-8,3.582-8,8v255.52c0,4.418,3.582,8,8,8    c1.374-0.004,2.724-0.362,3.92-1.04c0.8-0.4,80.8-44.16,192.48-16h1.2h0.72c0.638,0.077,1.282,0.077,1.92,0    c112-28.4,192,15.28,192.48,16c2.475,1.429,5.525,1.429,8,0c2.46-1.42,3.983-4.039,4-6.88V90.944    C412.72,86.526,409.139,82.944,404.72,82.944z M16,333.664V98.944h19.12v200.64c-0.05,4.418,3.491,8.04,7.909,8.09    c0.432,0.005,0.864-0.025,1.291-0.09c16.55-2.527,33.259-3.864,50-4c23.19-0.402,46.283,3.086,68.32,10.32    C112.875,307.886,62.397,314.688,16,333.664z M94.32,287.664c-14.551,0.033-29.085,0.968-43.52,2.8V79.984    c15.576-3.47,31.482-5.241,47.44-5.28c29.92,0,71.2,6.88,99.84,39.2l0.24,199.28C181.68,302.304,149.2,287.664,94.32,287.664z     M214.32,113.904c28.64-32,69.92-39.2,99.84-39.2c15.957,0.047,31.863,1.817,47.44,5.28v210.48    c-14.354-1.849-28.808-2.811-43.28-2.88c-54.56,0-87.12,14.64-104,25.52V113.904z M396.64,333.664    c-46.496-19.028-97.09-25.831-146.96-19.76c22.141-7.26,45.344-10.749,68.64-10.32c16.846,0.094,33.663,1.404,50.32,3.92    c4.368,0.663,8.447-2.341,9.11-6.709c0.065-0.427,0.095-0.859,0.09-1.291V98.944h19.12L396.64,333.664z"></path></svg><img></span>&nbsp;Read More
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <a href="https://www.youtube.com/watch?v=908Ct54xkWU&amp;t=18s&amp;ab_channel=CBSNewYork" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-custom-color-3 u-radius-50 u-btn-2" data-animation-name="jackInTheBox" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">Watch a video</a>
       </div>
     </section>
-    <section class="u-clearfix u-grey-10 u-section-10" id="sec-ec7b">
+    <section class="u-clearfix u-custom-color-2 u-section-3" id="sec-31df">
+      <div class="u-clearfix u-sheet u-valign-top u-sheet-1">
+        <div class="u-container-style u-custom-color-3 u-group u-shape-rectangle u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <img class="u-image u-image-1" src="images/chuttersnap-OijVdM3Zx4I-unsplash.jpg" data-image-width="1600" data-image-height="1065" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
+          </div>
+        </div>
+        <h1 class="u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Our latest products</h1>
+        <h3 class="u-text u-text-default u-text-2"> The 3D bandage for bone repair&nbsp; <span class="u-icon"></span>
+        </h3>
+        <img class="u-image u-image-round u-radius-10 u-image-2" src="images/orlogojpg.jpg1.png" alt="" data-image-width="1656" data-image-height="1459">
+        <div class="u-container-style u-custom-color-4 u-expanded-width-xs u-group u-radius-9 u-shape-round u-group-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
+          <div class="u-container-layout u-container-layout-2">
+            <h2 class="u-text u-text-3">The new novel bandage that accelerates your bone healing .</h2>
+            <p class="u-text u-text-4">
+              <a href="Home.html#sec-ef92" data-page-id="51435284" class="u-active-none u-border-1 u-border-grey-50 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1">ReBone</a>&nbsp;concept as a novel platform, targeting many organs for repair and tissue
+engineering.
+            </p>
+            <img class="u-image u-image-default u-image-3" src="images/Uncellled.png" alt="" data-image-width="523" data-image-height="400">
+            <a href="https://emckclac-my.sharepoint.com/:p:/g/personal/k1344040_kcl_ac_uk/EUcCphv9SvFOvNkyq0g9FgAB26JUnUjWSm9LAshZhvH1pg?rtime=wht8Rjxi2Ug" class="u-active-custom-color-2 u-border-none u-btn u-btn-round u-button-style u-gradient u-hover-custom-color-3 u-none u-radius-2 u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-2">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-white u-section-4" id="sec-ef92">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <div id="carousel-d79e" data-interval="5000" data-u-ride="carousel" class="u-carousel u-slider u-slider-1">
-          <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
-            <li data-u-target="#carousel-d79e" class="u-active u-grey-30 u-shape-circle" data-u-slide-to="0" style="width: 10px; height: 10px;"></li>
-            <li data-u-target="#carousel-d79e" class="u-grey-30 u-shape-circle" data-u-slide-to="1" style="width: 10px; height: 10px;"></li>
-          </ol>
-          <div class="u-carousel-inner" role="listbox">
-            <div class="u-active u-align-center u-carousel-item u-container-style u-slide">
-              <div class="u-container-layout u-container-layout-1">
-                <p class="u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">❝ At any given moment you have the POWER to say this is not how the story is going to end. ❞</p>
-                <div alt="" class="u-border-10 u-border-palette-1-base u-image u-image-circle u-image-1" data-image-width="500" data-image-height="500"></div>
-                <h5 class="u-text u-text-2">Christine Mason Miller</h5>
-              </div>
-            </div>
-            <div class="u-align-center u-carousel-item u-container-style u-slide">
-              <div class="u-container-layout u-container-layout-2">
-                <p class="u-text u-text-3" spellcheck="false"> ❝ ​When it comes to abuse, you believe there’s no way out. There is always help. There is always a way out.&nbsp;❞</p>
-                <div alt="" class="u-border-8 u-border-palette-1-base u-image u-image-circle u-image-2" data-image-width="190" data-image-height="190"></div>
-                <h5 class="u-align-center-md u-text u-text-4"> Rev. Donna Mulvey</h5>
-              </div>
-            </div>
-          </div>
-          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-hover-white u-icon-circle u-palette-1-base u-spacing-10 u-text-hover-palette-1-base u-carousel-control-1" href="#carousel-d79e" role="button" data-u-slide="prev">
-            <span aria-hidden="true">
-              <svg viewBox="0 0 477.175 477.175"><path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
-                    c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path></svg>
-            </span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="u-absolute-vcenter-lg u-absolute-vcenter-md u-absolute-vcenter-sm u-absolute-vcenter-xs u-carousel-control u-carousel-control-next u-hover-white u-icon-circle u-palette-1-base u-spacing-10 u-text-hover-palette-1-base u-carousel-control-2" href="#carousel-d79e" role="button" data-u-slide="next">
-            <span aria-hidden="true">
-              <svg viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
-                    c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path></svg>
-            </span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </section>
-    
-    <section class="u-clearfix u-video u-video-contain u-section-2" id="sec-c26b">
-      <div class="u-absolute-hcenter u-background-video u-expanded" style="">
-        <div class="embed-responsive embed-responsive-1">
-          <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/LI8Yb9TwNmE" frameborder="0" allowfullscreen=""></iframe>
-        </div>
-      </div>
-    </section>
-    <section class="u-clearfix u-palette-4-base u-section-3" id="carousel_27c0">
-      <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-        <div class="u-layout">
-          <div class="u-layout-row">
-            <div class="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-1">
-              <div class="u-container-layout u-container-layout-1">
-                <h1 class="u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Always<br>for<br>YOU.
-                </h1>
-                <div class="u-border-9 u-border-white u-line u-line-horizontal u-line-1"></div>
-                <div class="u-shape u-shape-svg u-text-white u-shape-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
-                  <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-e409"></use></svg>
-                  <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-e409"><path d="M114.3,152.3l38-38C144.4,130.9,130.9,144.4,114.3,152.3z M117.1,9.1l-108,108c0.8,1.6,1.7,3.2,2.7,4.8l110-110
-	C120.3,10.9,118.7,10,117.1,9.1z M97.5,2L2,97.5c0.4,2,1,4,1.5,5.9l99.9-99.9C101.5,2.9,99.5,2.4,97.5,2z M80,160c2,0,4-0.1,5.9-0.2
-	l73.9-73.9c0.1-2,0.2-3.9,0.2-5.9c0-0.6,0-1.2,0-1.9L78.1,160C78.8,160,79.4,160,80,160z M34.9,146.1c1.5,1,3,2,4.6,2.9L149,39.5
-	c-0.9-1.6-1.9-3.1-2.9-4.6L34.9,146.1z M132.7,19.8L19.8,132.7c1.2,1.3,2.3,2.6,3.6,3.9L136.6,23.4C135.3,22.2,134,21,132.7,19.8z
-	 M59.6,157.4l97.8-97.8c-0.5-1.9-1.1-3.8-1.7-5.7L53.9,155.6C55.8,156.3,57.7,156.9,59.6,157.4z M7.6,45.9L45.9,7.6
-	C29.1,15.5,15.5,29.1,7.6,45.9z M80,0c-2.6,0-5.1,0.1-7.6,0.4l-72,72C0.1,74.9,0,77.4,0,80c0,0.1,0,0.2,0,0.2L80.2,0
-	C80.2,0,80.1,0,80,0z"></path></svg>
-                </div>
-                <div class="u-shape u-shape-svg u-text-white u-shape-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
-                  <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-be85"></use></svg>
-                  <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-be85"><path d="M0,7.3c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3S11.3,0,7.3,0S0,3.3,0,7.3z M24.2,31.5c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3
-	s-3.3-7.3-7.3-7.3S24.2,27.5,24.2,31.5z M0,31.5c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3S0,27.5,0,31.5z M48.5,55.8
-	c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3S48.5,51.8,48.5,55.8z M24.2,55.8c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3
-	s-3.3-7.3-7.3-7.3S24.2,51.8,24.2,55.8z M0,55.8c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3S0,51.8,0,55.8z M72.7,80
-	c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3S84,72.7,80,72.7S72.7,76,72.7,80z M48.5,80c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3
-	s-3.3-7.3-7.3-7.3S48.5,76,48.5,80z M24.2,80c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3S24.2,76,24.2,80z M0,80
-	c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3S0,76,0,80z M96.9,104.3c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3
-	s-3.3-7.3-7.3-7.3C100.3,97,97,100.3,96.9,104.3z M72.7,104.3c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3S84,97,80,97
-	S72.7,100.3,72.7,104.3z M48.5,104.3c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3S59.8,97,55.8,97S48.5,100.3,48.5,104.3z M24.2,104.3
-	c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3S35.5,97,31.5,97S24.2,100.3,24.2,104.3z M0,104.3c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3
-	S11.3,97,7.3,97S0,100.3,0,104.3z M121.2,128.5c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3S121.2,124.5,121.2,128.5z
-	 M96.9,128.5c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3C100.3,121.2,97,124.5,96.9,128.5z M72.7,128.5
-	c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3S72.7,124.5,72.7,128.5z M48.5,128.5c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3
-	s-3.3-7.3-7.3-7.3S48.5,124.5,48.5,128.5z M24.2,128.5c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3S24.2,124.5,24.2,128.5
-	z M0,128.5c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3S0,124.5,0,128.5z M145.4,152.8c0,4,3.3,7.3,7.3,7.3
-	s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3C148.8,145.5,145.5,148.8,145.4,152.8z M121.2,152.8c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3
-	s-3.3-7.3-7.3-7.3S121.2,148.8,121.2,152.8z M96.9,152.8c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3
-	C100.3,145.5,97,148.8,96.9,152.8z M72.7,152.8c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3S72.7,148.8,72.7,152.8z
-	 M48.5,152.8c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3S48.5,148.8,48.5,152.8z M24.2,152.8c0,4,3.3,7.3,7.3,7.3
-	s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3S24.2,148.8,24.2,152.8z M0,152.8c0,4,3.3,7.3,7.3,7.3s7.3-3.3,7.3-7.3s-3.3-7.3-7.3-7.3
-	S0,148.8,0,152.8z"></path></svg>
-                </div>
-              </div>
-            </div>
-            <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-              <div class="u-container-layout u-container-layout-2">
-                <p class="u-align-center u-text u-text-white u-text-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Who are we ?
-                </p>
-                <p class="u-align-center u-text u-text-3" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0"><b>“Aster” is an organization which provides a platform with a wide variety of coping mechanisms for teenagers who suffer from domestic abuse.
- </b>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="u-clearfix u-white u-section-4" id="carousel_f4f0">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
+        <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
           <div class="u-layout">
             <div class="u-layout-row">
-              <div class="u-size-30">
+              <div class="u-size-30 u-size-60-md">
                 <div class="u-layout-col">
-                  <div class="u-container-style u-layout-cell u-palette-4-base u-radius-5 u-shape-round u-size-60 u-layout-cell-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
-                    <div class="u-container-layout u-valign-top u-container-layout-1">
-                      <h1 class="u-text u-text-1" spellcheck="false"><b>Let us explain</h1>
-                        <br><br>Based on a wide range of interviews, surveys and statistics, the issue of domestic abuse is growing especially throughout the pandemic and today's care for its victims goes unnoticed.<br> This is the reason behind Aster, to work and push towards achieving our vision.
-Aster addresses the lack of tools in the domestic abuse field with their app which contains scientifically proven methods and strategies of coping specifically for these teenagers.<br>
-Due to the range of issues that domestic abuse extends to and in order to get the help we provide out to the people who need it, in the fastest way possible. Aster directed itself into the digital world for an efficient and effective solution.
-
-</b>
-                      </p>
-                    </div>
+                  <div class="u-container-style u-image u-layout-cell u-left-cell u-size-60 u-image-1" src="" data-image-width="1656" data-image-height="1459" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
+                    <div class="u-container-layout u-valign-middle u-container-layout-1"></div>
                   </div>
-
-
                 </div>
               </div>
-              <div class="u-size-30">
+              <div class="u-size-30 u-size-60-md">
                 <div class="u-layout-col">
-                  <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
-                    <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-xl u-container-layout-2">
-                      <div class="u-align-left u-container-style u-expanded-width-xs u-group u-palette-5-light-2 u-radius-3 u-shape-round u-group-1" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                  <div class="u-size-30">
+                    <div class="u-layout-row">
+                      <div class="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
+                        <div class="u-container-layout u-valign-top u-container-layout-2">
+                          <h3 class="u-text u-text-1">More about Rebone&nbsp;<span class="u-icon"></span>
+                          </h3>
+                        </div>
+                      </div>
+                      <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-3" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
                         <div class="u-container-layout u-container-layout-3">
-                          <h2 class="u-text u-text-3" spellcheck="false">Would you like to volunteer?</h2>
-                          <a href="https://forms.gle/4x32yyonkLaVoK1L9" class="u-active-palette-4-light-1 u-btn u-btn-round u-button-style u-hover-palette-4-light-1 u-palette-4-base u-radius-50 u-btn-1" target="_blank">Sign UP now</a>
-                          <p class="u-text u-text-4" spellcheck="false">Volunteer for aster and help us reach every teenager
-
-<br>  
-                            <span style="font-weight: 700;">Your help is meaningful!</span>
+                          <p class="u-text u-text-2">Was Founded in 2021, by&nbsp;<br>Dr Shukry Habib. Expert in stem cells biology and tissue engineering
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="u-container-style u-image u-layout-cell u-size-30 u-image-1" data-image-width="334" data-image-height="501" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
-                    <div class="u-container-layout u-container-layout-4"></div>
+                  <div class="u-size-30">
+                    <div class="u-layout-row">
+                      <div class="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-4">
+                        <div class="u-container-layout u-valign-top u-container-layout-4">
+                          <p class="u-text u-text-3" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">A novel bandage that harnesses the capacity of bone stem cells to promote bone repair including large bone fractures that cannot heal by themselves.&nbsp;<br>
+                            <br>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-white u-layout-cell-5" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
+                        <div class="u-container-layout u-container-layout-5">
+                          <p class="u-text u-text-4">Description and content about ReBone asdas d dasdasmkdaslda slaksd maklsdma sklalsdmlks kasdlk a kasmdk&nbsp;</p>
+                          <img class="u-image u-image-default u-preserve-proportions u-image-2" src="images/Shukry1.png" alt="" data-image-width="234" data-image-height="220">
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -470,519 +185,220 @@ Due to the range of issues that domestic abuse extends to and in order to get th
         </div>
       </div>
     </section>
-    <section class="u-align-center u-clearfix u-palette-4-base u-section-5" id="carousel_d587">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-        <h4 class="u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Our Values</h4>
-        <div class="u-expanded-width u-list u-list-1">
+    <section class="u-align-center u-clearfix u-section-2" id="sec-46ef">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-align-center u-text u-text-custom-color-1 u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Why Us</h1>
+        <div class="u-align-center u-list u-list-1">
           <div class="u-repeater u-repeater-1">
-            <div class="u-align-center u-container-style u-list-item u-opacity u-opacity-20 u-palette-4-light-2 u-repeater-item u-shape-rectangle u-list-item-1" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
-              <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-border-1 u-border-white u-icon u-icon-circle u-spacing-10 u-text-white u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512.687 512.687" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-aa2d"></use></svg><svg class="u-svg-content" viewBox="0 0 512.687 512.687" id="svg-aa2d"><path d="m506.908 299.425c-6.916-8.104-18.533-10.717-28.25-6.351l-47.428 21.3 17.844-37.54c6.65-13.992 8.629-29.443 5.722-44.684-.776-4.068-4.705-6.735-8.772-5.962-4.069.776-6.738 4.704-5.962 8.772 2.306 12.088.737 24.341-4.536 35.434l-25.412 53.463-27.577 12.385h-6.205c-.346-16.582-13.932-29.966-30.594-29.966h-59.527l-20.791-11.668-11.509-24.214c-9.804-20.625-6.464-45.093 8.507-62.336 17.302-19.928 45.827-25.511 69.366-13.578l5.435 2.755v12.387c0 4.142 3.358 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-12.387l5.435-2.755c23.54-11.932 52.064-6.349 69.369 13.582.323.372.633.751.944 1.129 0 0 .061.074.061.075 2.629 3.199 7.325 3.625 10.525.997 3.201-2.629 3.633-7.392 1.004-10.593-.399-.486-.8-.972-1.212-1.446-21.491-24.753-56.708-31.94-86.127-17.771v-11.262c0-9.494 3.697-18.42 10.411-25.133l9.343-9.344c2.929-2.929 2.929-7.678 0-10.606-2.929-2.93-7.678-2.929-10.606 0l-9.343 9.344c-.166.166-.321.341-.485.509-2.921-13.521-14.969-23.685-29.35-23.685h-19.26c-6.432 0-11.664 5.232-11.664 11.664v11.033c0 16.559 13.472 30.031 30.031 30.031h16.312c-.247 2.039-.388 4.102-.388 6.188v11.262c-20.167-9.713-43.055-9.394-62.383-.251v-15.256c0-3.464-1.052-6.686-2.85-9.367 1.798-2.681 2.85-5.903 2.85-9.367v-25.233c0-3.464-1.052-6.685-2.85-9.367 1.798-2.681 2.85-5.903 2.85-9.367v-25.234c0-9.3-7.566-16.867-16.867-16.867h-24.777c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h24.777c1.029 0 1.867.837 1.867 1.867v25.233c0 1.029-.837 1.867-1.867 1.867h-128.795c-1.029 0-1.867-.837-1.867-1.867v-25.233c0-1.029.837-1.867 1.867-1.867h72.056c4.142 0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-72.056c-9.3 0-16.867 7.566-16.867 16.867v25.233c0 3.464 1.052 6.685 2.85 9.367-1.798 2.681-2.85 5.903-2.85 9.367v25.233c0 3.464 1.052 6.685 2.85 9.367-1.798 2.682-2.85 5.903-2.85 9.367v25.233c0 3.464 1.052 6.685 2.85 9.367-1.798 2.681-2.85 5.903-2.85 9.367v25.233c0 3.464 1.052 6.686 2.85 9.367-1.798 2.681-2.85 5.903-2.85 9.367v25.801c-.756.305-1.517.595-2.269.911l-9.372 3.94h-93.166c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h94.679c.998 0 1.986-.199 2.907-.586l10.767-4.526c11.771-4.95 24.152-8.36 36.798-10.137 4.102-.577 6.96-4.369 6.384-8.471-.577-4.102-4.371-6.957-8.471-6.384-7.871 1.106-15.642 2.807-23.257 5.043v-20.591c0-1.029.837-1.867 1.867-1.867h104.369c.642 8.798 2.89 17.555 6.82 25.821l2.715 5.712c-18.462-8.713-38.645-13.989-59.012-15.338-4.14-.273-7.706 2.855-7.979 6.988s2.854 7.706 6.988 7.979c21.915 1.452 43.604 7.891 62.721 18.621l34.785 19.522c1.121.629 2.385.959 3.67.959h61.488c8.607 0 15.61 7.003 15.61 15.611 0 8.607-7.003 15.61-15.61 15.61h-91.833c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h91.833c11.693 0 21.872-6.593 27.025-16.255h11.381c1.059 0 2.106-.224 3.073-.658l97.587-43.827c3.678-1.653 8.076-.663 10.694 2.404 1.75 2.051 2.503 4.752 2.065 7.413-.437 2.66-2.016 4.979-4.33 6.362l-164.594 98.333c-27.574 16.473-61.047 20.675-91.836 11.534l-97.812-29.045c-.693-.206-1.412-.311-2.135-.311h-129.357c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h128.265l96.768 28.735c12.09 3.59 24.543 5.359 36.959 5.359 23.321 0 46.502-6.245 66.84-18.395l164.595-98.333c6.114-3.653 10.283-9.778 11.438-16.806s-.834-14.165-5.457-19.583zm-169.689-151.422h-15.924c-8.288 0-15.031-6.743-15.031-15.031v-7.697h15.924c8.288 0 15.031 6.743 15.031 15.031zm-80.073 44.043h-127.972c-1.029 0-1.867-.837-1.867-1.867v-25.233c0-1.03.837-1.867 1.867-1.867h128.795c1.029 0 1.867.837 1.867 1.867v24.763c-.915.752-1.808 1.535-2.69 2.337zm.823-72.934c1.029 0 1.867.837 1.867 1.867v25.233c0 1.029-.837 1.867-1.867 1.867h-128.795c-1.03 0-1.867-.837-1.867-1.867v-25.233c0-1.029.837-1.867 1.867-1.867zm-130.662 115.033v-25.233c0-1.029.837-1.867 1.867-1.867h115.365c-5.611 8.882-9.159 18.777-10.538 28.967h-104.827c-1.029 0-1.867-.837-1.867-1.867z"></path></svg></span>
-                <h4 class="u-align-center u-text u-text-body-alt-color u-text-2"> Altruism</h4>
-                <p class="u-align-center u-text u-text-body-alt-color u-text-3" spellcheck="false">
-                  <br><b>Always Care and help others whenever possible..
-    this is what we do at Aster
-  Help each other&nbsp;</b>
-                  <br>
-                </p>
+            <div class="u-container-style u-list-item u-repeater-item u-list-item-1" data-animation-name="slideIn" data-animation-duration="1500" data-animation-delay="0" data-animation-direction="Left">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1"><span class="u-custom-color-2 u-icon u-icon-circle u-spacing-20 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-6c41"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6c41"><g><path d="m38.872 149.21h79.098c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-79.098c-4.142 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z"></path><path d="m115.258 185.317h-31.246c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h31.246c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z"></path><path d="m7.5 237.327h76.512c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-76.512c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5z"></path><path d="m125.47 370.289c0-4.143-3.358-7.5-7.5-7.5h-79.098c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h79.098c4.142 0 7.5-3.357 7.5-7.5z"></path><path d="m115.258 311.683h-31.246c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h31.246c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z"></path><path d="m91.512 282.173c0-4.143-3.358-7.5-7.5-7.5h-76.512c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h76.512c4.142 0 7.5-3.357 7.5-7.5z"></path><path d="m319.529 165.83c4.143 0 7.5-3.357 7.5-7.5v-11.448c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v11.448c0 4.143 3.357 7.5 7.5 7.5z"></path><path d="m401.99 173.538c-2.93-2.928-7.678-2.928-10.607 0l-8.095 8.095c-2.929 2.93-2.929 7.678 0 10.607 2.931 2.929 7.678 2.928 10.607 0l8.095-8.095c2.928-2.929 2.928-7.677 0-10.607z"></path><path d="m417.199 248.5c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h11.447c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5z"></path><path d="m393.895 319.759c-2.93-2.928-7.678-2.928-10.607 0-2.929 2.93-2.929 7.678 0 10.607l8.095 8.095c2.931 2.929 7.678 2.928 10.607 0 2.929-2.93 2.929-7.678 0-10.607z"></path><path d="m312.029 353.67v11.447c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-11.447c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5z"></path><path d="m245.162 319.759-8.095 8.095c-2.929 2.93-2.929 7.678 0 10.607 2.93 2.929 7.678 2.928 10.606 0l8.095-8.095c2.929-2.93 2.929-7.678 0-10.607-2.928-2.928-7.677-2.928-10.606 0z"></path><path d="m210.411 248.5c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h11.448c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z"></path><path d="m255.769 181.633-8.095-8.095c-2.929-2.928-7.678-2.928-10.606 0-2.929 2.93-2.929 7.678 0 10.607l8.095 8.095c2.93 2.929 7.678 2.928 10.606 0 2.929-2.929 2.929-7.677 0-10.607z"></path><path d="m359.859 256c0-4.143-3.357-7.5-7.5-7.5h-25.33v-55.684c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v63.184c0 4.143 3.357 7.5 7.5 7.5h32.83c4.142 0 7.5-3.357 7.5-7.5z"></path><path d="m461.741 254.762c4.135-.251 7.283-3.806 7.032-7.94-4.771-78.703-70.327-140.354-149.245-140.354-82.452 0-149.532 67.08-149.532 149.533 0 82.452 67.08 149.532 149.532 149.532 73.869 0 136.9-54.122 147.865-127.157.615-4.096-2.207-7.915-6.304-8.53-4.086-.613-7.915 2.206-8.53 6.304-9.85 65.614-66.506 114.384-133.031 114.384-74.181 0-134.532-60.351-134.532-134.532s60.351-134.533 134.532-134.533c71.001 0 129.98 55.461 134.272 126.263.25 4.132 3.802 7.27 7.941 7.03z"></path><path d="m319.528 63.529c-26.381 0-52.228 5.473-76.018 15.708h-132.329c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h104.113c-14.077 9.06-27.036 19.988-38.462 32.604-2.78 3.069-2.546 7.812.524 10.593 3.071 2.781 7.812 2.546 10.594-.524 33.602-37.102 81.561-58.381 131.578-58.381 97.858 0 177.472 79.613 177.472 177.471 0 97.857-79.613 177.471-177.472 177.471-97.858 0-177.471-79.613-177.471-177.471 0-34.268 9.789-67.528 28.307-96.186 2.248-3.479 1.25-8.121-2.229-10.369-3.479-2.247-8.121-1.251-10.37 2.229-20.09 31.088-30.708 67.163-30.708 104.326 0 67.766 35.206 127.458 88.285 161.763h-104.16c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h132.225c23.36 10.099 49.097 15.708 76.122 15.708 106.128 0 192.471-86.342 192.471-192.471s-86.343-192.471-192.472-192.471z"></path>
+</g></svg>
+            
+            
+          </span>
+                <h3 class="u-align-center u-text u-text-default u-text-2">Fast</h3>
+                <p class="u-align-center u-text u-text-default u-text-3"> Rapid bone repair and newly forming bone is structurally similar to a healthy bone&nbsp;</p>
+                <a href="" class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-none u-text-body-color u-btn-1">learn more</a>
               </div>
             </div>
-            <div class="u-container-style u-list-item u-opacity u-opacity-20 u-palette-4-light-2 u-repeater-item u-shape-rectangle u-video-cover u-list-item-2" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
-              <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-border-1 u-border-white u-icon u-icon-circle u-spacing-10 u-text-white u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 74 74" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a15a"></use></svg><svg class="u-svg-content" viewBox="0 0 74 74" id="svg-a15a"><path d="m41 22.1h-.07a1 1 0 0 1 -.93-1.1l.12-1.73c-4.31.5-6.7-.84-8-2.13a2.79 2.79 0 0 1 -.68-2.83 2.85 2.85 0 0 1 2.21-2l11.35-2.11a3.53 3.53 0 0 1 4 2.31l2.1 6a1 1 0 1 1 -1.89.67l-2.1-6a1.55 1.55 0 0 0 -1.77-1l-11.28 2.15a.87.87 0 0 0 -.67.61.78.78 0 0 0 .19.82c1.51 1.53 4.08 2 7.45 1.38a1 1 0 0 1 .84.24 1 1 0 0 1 .34.81l-.2 3a1 1 0 0 1 -1.01.91z"></path><path d="m46.53 28.92a1 1 0 0 1 -.32-1.92l8.24-2.84a1.92 1.92 0 0 0 1.21-2.41l-.42-1.31a1.93 1.93 0 0 0 -2.3-1.29l-14.61 3.57a1 1 0 1 1 -.47-1.94l14.6-3.59a3.93 3.93 0 0 1 4.69 2.63l.42 1.3a3.92 3.92 0 0 1 -2.47 4.88l-8.24 2.84a1 1 0 0 1 -.33.08z"></path><path d="m47 36.17a1 1 0 0 1 -.92-.6 1 1 0 0 1 .52-1.32l8.09-3.51a1.93 1.93 0 0 0 1-2.44l-.16-.45a2 2 0 0 0 -2.44-1.15l-6.29 2.17a1 1 0 0 1 -.59-1.87l6.29-2.17a3.9 3.9 0 0 1 5 2.35l.17.44a3.94 3.94 0 0 1 -2.12 5l-8.1 3.51a.91.91 0 0 1 -.45.04z"></path><path d="m49.58 43a1 1 0 0 1 -.47-1.88l7.55-4a1.92 1.92 0 0 0 .87-2.45l-.29-.67a2 2 0 0 0 -1.07-1.05 2 2 0 0 0 -1.48 0l-5.69 2.44a1 1 0 0 1 -.8-1.84l5.66-2.45a3.94 3.94 0 0 1 5.19 2.08l.29.7a3.92 3.92 0 0 1 -1.77 5l-7.55 4a1 1 0 0 1 -.44.12z"></path><path d="m17.16 67.62a1 1 0 0 1 -.5-1.87l21.16-12.19 20.18-10.56a1.94 1.94 0 0 0 .83-2.6 1.92 1.92 0 0 0 -1.14-.95 1.89 1.89 0 0 0 -1.49.14l-5.36 2.86a1 1 0 1 1 -.94-1.76l5.36-2.87a3.94 3.94 0 0 1 5.34 1.66 3.92 3.92 0 0 1 -1.67 5.29l-20.15 10.54-21.13 12.18a1 1 0 0 1 -.49.13z"></path><path d="m25.18 19.69a1 1 0 0 1 -.43-.1 1 1 0 0 1 -.47-1.33l3-6.27a3.56 3.56 0 0 1 3.64-2l9.54 1.13a1 1 0 1 1 -.23 2l-9.55-1.12a1.58 1.58 0 0 0 -1.59.88l-3 6.27a1 1 0 0 1 -.91.54z"></path><path d="m30.43 28.8a4.24 4.24 0 0 1 -1.43-.25l-9.74-3.55a4.23 4.23 0 0 1 -2.49-5.48l.26-.68a4.14 4.14 0 0 1 2.25-2.36 4.21 4.21 0 0 1 3.27-.06l9.62 3.84a4.24 4.24 0 0 1 2.38 5.43l-.16.41a4.25 4.25 0 0 1 -3.96 2.7zm-11.53-9.27-.26.69a2.16 2.16 0 0 0 .05 1.71 2.23 2.23 0 0 0 1.31 1.17l9.72 3.57a2.25 2.25 0 0 0 2.85-1.3l.16-.41a2.24 2.24 0 0 0 -1.26-2.87l-9.67-3.83a2.23 2.23 0 0 0 -1.72 0 2.18 2.18 0 0 0 -1.18 1.24z"></path><path d="m28.77 35.07a4.11 4.11 0 0 1 -1.24-.19l-10-3.06a4.23 4.23 0 0 1 -2.71-5.57l.18-.55a4.24 4.24 0 0 1 5.4-2.44l9.83 3.61a4.23 4.23 0 0 1 -1.44 8.2zm-9.84-10.07a2.23 2.23 0 0 0 -2.08 1.42l-.22.55a2.24 2.24 0 0 0 1.43 2.94l10.05 3.09a2.23 2.23 0 0 0 1.42-4.23l-9.84-3.6a2 2 0 0 0 -.76-.17z"></path><path d="m27.42 41.71h-.39a27.89 27.89 0 0 1 -11.09-3.51 4.32 4.32 0 0 1 3.43-7.87l9.3 2.83a4.33 4.33 0 0 1 2.83 5.54v.11a4.29 4.29 0 0 1 -4.08 2.9zm-9.3-9.59a2.35 2.35 0 0 0 -2.12 1.47 2.3 2.3 0 0 0 1 2.85 26 26 0 0 0 10.21 3.26 2.29 2.29 0 0 0 2.36-1.56v-.11a2.33 2.33 0 0 0 -1.52-3l-9.3-2.83a2.22 2.22 0 0 0 -.63-.08z"></path><path d="m22.93 46a21.18 21.18 0 0 1 -6.34-1 3.89 3.89 0 0 1 -2.59-4.72 3.93 3.93 0 0 1 2.08-2.59 3.84 3.84 0 0 1 3.23-.07 25.07 25.07 0 0 0 6.69 1.94 3.09 3.09 0 0 1 2.64 3.44 3.06 3.06 0 0 1 -2.46 2.64 18.53 18.53 0 0 1 -3.25.36zm-5.15-6.7a1.81 1.81 0 0 0 -.81.19 1.92 1.92 0 0 0 -1 1.27 1.89 1.89 0 0 0 1.21 2.24 18.18 18.18 0 0 0 8.65.66 1.06 1.06 0 0 0 .83-.93 1.1 1.1 0 0 0 -.93-1.22 26.67 26.67 0 0 1 -7.22-2.09 1.83 1.83 0 0 0 -.73-.12z"></path><path d="m4 52.14a1 1 0 0 1 -.87-.51 1 1 0 0 1 .38-1.36l12.89-7.16a1 1 0 0 1 1 1.75l-12.91 7.14a1.07 1.07 0 0 1 -.49.14z"></path><path d="m72 52.79a1 1 0 0 1 -.46-.12l-14.32-7.46a1 1 0 1 1 .92-1.77l14.32 7.46a1 1 0 0 1 -.46 1.89z"></path><path d="m61.2 67.44a1 1 0 0 1 -.46-.12l-22.88-12a1 1 0 0 1 -.42-1.32 1 1 0 0 1 1.35-.42l22.88 12a1 1 0 0 1 -.47 1.89z"></path></svg></span>
-                <h4 class="u-align-center u-text u-text-body-alt-color u-text-4"><b>Accessable&nbsp;</b>
-                </h4>
-                <p class="u-align-center u-text u-text-body-alt-color u-text-5" spellcheck="false"><b>
-                    <br>Easily accessible by the victims of domestic abuse.
-<br></b>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item u-list-item-2" data-animation-name="slideIn" data-animation-duration="1500" data-animation-delay="0" data-animation-direction="Left">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2"><span class="u-custom-color-2 u-icon u-icon-circle u-spacing-20 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 -16 511.99991 511" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3660"></use></svg><svg class="u-svg-content" viewBox="0 -16 511.99991 511" id="svg-3660"><path d="m247.359375 178.722656c3.335937 3.167969 8.882813 2.527344 11.417969-1.296875l49.917968-75.335937c2.289063-3.453125 1.34375-8.109375-2.109374-10.398438-3.449219-2.285156-8.105469-1.339844-10.394532 2.109375l-44.984375 67.890625-24.996093-23.734375c-3.003907-2.851562-7.75-2.726562-10.605469.277344-2.851563 3.003906-2.726563 7.75.277343 10.601563-.003906 0 31.449219 29.863281 31.476563 29.886718zm0 0"></path><path d="m252.476562 293.117188c1.433594.65625 3.019532 1.003906 4.597657 1.003906h.0625c1.605469-.007813 3.214843-.375 4.652343-1.0625 114.046876-54.238282 133.375-171.261719 136.578126-205.835938.734374-7.894531-3.710938-15.246094-11.058594-18.292968-22.703125-9.425782-38.136719-30.503907-40.277344-55.007813-.660156-7.542969-7.105469-13.421875-14.699219-13.421875h-.089843l-153.648438.902344c-7.746094.042968-14.039062 5.929687-14.632812 13.691406-1.890626 24.511719-17.097657 45.742188-39.6875 55.40625-7.273438 3.109375-11.609376 10.5-10.78125 18.390625 3.609374 34.535156 24.308593 151.328125 138.984374 204.226563zm-122.304687-208.828126c27.699219-11.84375 46.359375-37.847656 48.730469-67.890624l153.207031-.898438c2.722656 29.976562 21.648437 55.742188 49.449219 67.28125 1.242187.519531 1.996094 1.746094 1.875 3.058594-3.007813 32.402344-21.003906 141.65625-126.386719 192.855468-105.988281-49.953124-125.25-158.996093-128.640625-191.363281-.136719-1.308593.574219-2.53125 1.765625-3.042969zm0 0"></path><path d="m148.898438 125.867188c.90625 3.335937 5.136718 6.390624 9.207031 5.269531 3.992187-1.101563 6.355469-5.207031 5.269531-9.203125-1.910156-7.039063-3.515625-14.175782-4.777344-21.246094 20.375-13.277344 35.496094-33.09375 42.914063-56.238281l108.3125-.636719c7.6875 23.050781 23.039062 42.695312 43.570312 55.730469-1.175781 7.089843-2.699219 14.25-4.53125 21.316406-1.039062 4.011719 1.371094 8.105469 5.378907 9.144531 4.015624 1.039063 8.105468-1.371094 9.144531-5.382812 2.148437-8.296875 3.898437-16.71875 5.195312-25.03125.726563-4.644532-1.398437-9.210938-5.40625-11.632813-19.125-11.550781-33.261719-29.671875-39.804687-51.023437-1.472656-4.800782-6-8.136719-11.023438-8.136719h-.070312l-113.398438.664063c-5.054687.03125-9.578125 3.433593-10.996094 8.269531-6.289062 21.425781-20.214843 39.710937-39.203124 51.488281-3.980469 2.464844-6.046876 7.054688-5.269532 11.695312 1.398438 8.292969 3.242188 16.6875 5.488282 24.953126zm0 0"></path><path d="m348.226562 148.105469c-3.828124-1.585938-8.210937.242187-9.792968 4.070312-17.332032 42.007813-44.769532 73.945313-81.574219 94.964844-37.089844-20.613281-64.925781-52.28125-82.746094-94.15625-1.625-3.808594-6.03125-5.582031-9.839843-3.960937-3.8125 1.621093-5.585938 6.027343-3.964844 9.835937 19.449218 45.695313 50.089844 80.144531 91.070312 102.382813 1.726563.941406 3.617188 1.40625 5.503906 1.40625 1.933594 0 3.863282-.488282 5.621094-1.46875 40.671875-22.691407 70.882813-57.441407 89.796875-103.285157 1.582031-3.828125-.242187-8.210937-4.074219-9.789062zm0 0"></path><path d="m48.121094 384.273438c-14.628906 0-26.535156 11.902343-26.535156 26.535156 0 14.632812 11.90625 26.535156 26.535156 26.535156 14.632812 0 26.539062-11.902344 26.539062-26.535156 0-14.632813-11.902344-26.535156-26.539062-26.535156zm0 38.070312c-6.359375 0-11.535156-5.171875-11.535156-11.535156 0-6.359375 5.175781-11.535156 11.535156-11.535156 6.363281 0 11.539062 5.175781 11.539062 11.535156 0 6.363281-5.175781 11.535156-11.539062 11.535156zm0 0"></path><path d="m506.621094 310.847656c-9.613282-14.125-28.96875-17.867187-43.144532-8.34375l-98.046874 65.621094-20.929688-1.175781-.535156-5.359375c-2.085938-20.988282-18.128906-37.710938-39.011719-40.664063-.132813-.019531-.261719-.035156-.394531-.046875l-105.648438-9.257812c-3.574218-.558594-15.015625-3.84375-46.453125-21.875-16.339843-9.371094-34.75-14.660156-53.453125-15.378906v-19.621094c0-9.847656-8.007812-17.855469-17.855468-17.855469h-63.292969c-9.84375 0-17.855469 8.011719-17.855469 17.855469v193.246094c0 9.84375 8.011719 17.855468 17.855469 17.855468h63.292969c9.84375 0 17.855468-8.011718 17.855468-17.855468v-5.324219l92.351563 34.972656c.203125.078125 7.703125 2.882813 21.492187 1.582031.039063-.003906 153.449219-22.121094 153.449219-22.121094.039063-.003906.074219-.011718.113281-.019531 13.109375-2.089843 25.472656-7.632812 35.757813-16.019531.09375-.078125.183593-.15625.273437-.234375l99.105469-89.136719c11.679687-10.371094 13.863281-27.929687 5.074219-40.84375zm-15.070313 29.660156-99 89.042969c-8.195312 6.644531-18.03125 11.039063-28.453125 12.710938l-153.335937 22.105469c-.035157.003906-.085938.011718-.132813.019531-.023437.003906-.050781.007812-.074218.011719-4.585938.722656-9.363282.417968-14.203126-.90625l-97.347656-36.863282v-85.652344c0-4.144531-3.359375-7.5-7.5-7.5-4.144531 0-7.5 3.355469-7.5 7.5v107.015626c0 1.574218-1.28125 2.855468-2.855468 2.855468h-63.292969c-1.574219 0-2.855469-1.28125-2.855469-2.855468v-193.246094c0-1.574219 1.28125-2.855469 2.855469-2.855469h63.292969c1.574218 0 2.855468 1.28125 2.855468 2.855469v52.351562c0 4.144532 3.359375 7.5 7.5 7.5 4.144532 0 7.5-3.359375 7.5-7.5v-17.714844c16.089844.710938 31.917969 5.304688 45.988282 13.378907 37.917968 21.746093 48.507812 23.246093 51.988281 23.738281.132812.019531.261719.03125.394531.046875l105.660156 9.257813c13.929688 2.058593 24.609375 13.246093 26.003906 27.269531l.398438 3.996093-141.457031 8.734376c-.097657-.007813-.195313-.015626-.28125-.023438-4.585938-.414062-8.726563-2.582031-11.667969-6.105469-2.652344-3.183593-7.382812-3.613281-10.5625-.957031-3.183594 2.652344-3.613281 7.382812-.957031 10.5625 5.503906 6.601562 13.269531 10.550781 21.851562 11.441406 4.632813.484375 151.324219-9.132812 151.324219-9.132812l29.40625 1.652344c1.625.09375 3.238281-.351563 4.589844-1.257813l100.148437-67.023437c7.355469-4.941407 17.398438-3.003907 22.386719 4.324218 4.558594 6.703125 3.425781 15.8125-2.667969 21.222656zm0 0"></path></svg>
+            
+            
+          </span>
+                <h3 class="u-align-center u-text u-text-default u-text-4">Safe</h3>
+                <p class="u-align-center u-text u-text-default u-text-5"> Targeted therapy without side known side effects and biodegradable<br>can
+be removed if needed.
                 </p>
+                <a href="" class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-text-body-color u-btn-2">learn more</a>
               </div>
             </div>
-            <div class="u-container-style u-list-item u-opacity u-opacity-20 u-palette-4-light-2 u-repeater-item u-shape-rectangle u-video-cover u-list-item-3" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
-              <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-border-1 u-border-white u-icon u-icon-circle u-spacing-10 u-text-white u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 24 24" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3120"></use></svg><svg class="u-svg-content" viewBox="0 0 24 24" id="svg-3120"><path d="m18.75 24h-13.5c-1.24 0-2.25-1.009-2.25-2.25v-10.5c0-1.241 1.01-2.25 2.25-2.25h13.5c1.24 0 2.25 1.009 2.25 2.25v10.5c0 1.241-1.01 2.25-2.25 2.25zm-13.5-13.5c-.413 0-.75.336-.75.75v10.5c0 .414.337.75.75.75h13.5c.413 0 .75-.336.75-.75v-10.5c0-.414-.337-.75-.75-.75z"></path><path d="m17.25 10.5c-.414 0-.75-.336-.75-.75v-3.75c0-2.481-2.019-4.5-4.5-4.5s-4.5 2.019-4.5 4.5v3.75c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-3.75c0-3.309 2.691-6 6-6s6 2.691 6 6v3.75c0 .414-.336.75-.75.75z"></path><path d="m12 17c-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2-.897 2-2 2zm0-2.5c-.275 0-.5.224-.5.5s.225.5.5.5.5-.224.5-.5-.225-.5-.5-.5z"></path><path d="m12 20c-.414 0-.75-.336-.75-.75v-2.75c0-.414.336-.75.75-.75s.75.336.75.75v2.75c0 .414-.336.75-.75.75z"></path></svg></span>
-                <h4 class="u-align-center u-text u-text-body-alt-color u-text-6"><b>Privacy&nbsp;</b>
-                </h4>
-                <p class="u-align-center u-text u-text-body-alt-color u-text-7" spellcheck="false"><b>
-                    <br>Our trust is built by protecting the privacy of all our users.<br></b>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a href="https://www.linkedin.com/company/aster4you/?viewAsMember=true" class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-white u-btn u-button-style u-none u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-1">more on Linkedin</a>
-      </div>
-    </section>
-   
-    <section class="u-clearfix u-grey-10 u-section-7" id="sec-9803">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-row">
-              <div class="u-container-style u-layout-cell u-left-cell u-size-28 u-layout-cell-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
-                <div class="u-container-layout">
-                  <div class="u-align-left u-palette-1-light-1 u-shape u-shape-1"></div>
-                  <img class="u-align-left u-image u-image-round u-radius-5 u-image-1" data-image-width="300" data-image-height="200" src="{{url_for('static',filename='images/hands2.jpg')}}" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
-                </div>
-              </div>
-              <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-32 u-layout-cell-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="Right">
-                <div class="u-container-layout u-container-layout-2">
-                  <h2 class="u-text u-text-1" spellcheck="false">The Future of Aster</h2>
-                  <p class="u-text u-text-2" spellcheck="true">We envision a future where no children would suffer from family violence.</p>
-                  <a href="mailto:moin.mattar1@gmail.com" class="u-border-none u-btn u-btn-rectangle u-button-style u-hover-palette-1-dark-1 u-palette-1-light-1 u-btn-1" spellcheck="false">Contact a member</a>
-                </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item u-list-item-3" data-animation-name="slideIn" data-animation-duration="1500" data-animation-delay="0" data-animation-direction="Left">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3"><span class="u-custom-color-2 u-icon u-icon-circle u-spacing-20 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 480.161 480.161" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4c6a"></use></svg><svg class="u-svg-content" viewBox="0 0 480.161 480.161" x="0px" y="0px" id="svg-4c6a" style="enable-background:new 0 0 480.161 480.161;"><g><g><path d="M458,385.362c-2.869-7.385-8.619-13.285-15.928-16.344c-7.157-3.041-15.243-3.041-22.4,0L367.8,391.05    c0.142-0.963,0.233-1.932,0.272-2.904c0-15.464-12.536-28-28-28h-16v-40h40c30.911-0.04,55.96-25.089,56-56c0-4.418-3.582-8-8-8    h-48c-15.067-0.004-29.494,6.088-40,16.888v-33.296c66.127-4.418,116.151-61.606,111.733-127.733S374.199-4.147,308.072,0.272    S191.921,61.878,196.339,128.005c4.007,59.97,51.763,107.726,111.733,111.733v49.296c-10.506-10.8-24.933-16.892-40-16.888h-48    c-4.418,0-8,3.582-8,8c0.04,30.911,25.089,55.96,56,56h40v24h-30.056c-6.277-0.011-12.467-1.47-18.088-4.264    c-25.961-12.944-54.567-19.699-83.576-19.736h-20.28c0-4.418-3.582-8-8-8h-64c-4.418,0-8,3.582-8,8h-56v16h56v80h-56v16h56    c0,4.418,3.582,8,8,8h64c4.418,0,8-3.582,8-8v-3.048l59.728,24.8c32.563,13.287,68.961,13.687,101.808,1.12l123.584-47.112    c7.319-2.783,13.208-8.398,16.336-15.576C460.771,401.049,460.941,392.769,458,385.362z M364.072,272.146h39.2    c-3.825,18.613-20.198,31.979-39.2,32h-39.2C328.697,285.533,345.07,272.167,364.072,272.146z M268.072,320.146    c-19.002-0.021-35.375-13.387-39.2-32h39.2c19.002,0.021,35.375,13.387,39.2,32H268.072z M140.072,440.146h-48v-96h48V440.146z     M212.072,120.146c0-57.438,46.562-104,104-104s104,46.562,104,104s-46.562,104-104,104    C258.662,224.079,212.138,177.556,212.072,120.146z M442.896,401.866c-1.418,3.261-4.087,5.815-7.408,7.088l-123.584,47.12    c-29.04,11.121-61.224,10.772-90.016-0.976l-65.816-27.336v-75.616h20.28c26.527,0.031,52.686,6.208,76.424,18.048    c7.842,3.904,16.48,5.941,25.24,5.952h62.056c6.627,0.039,11.969,5.442,11.93,12.07c-0.032,5.554-3.872,10.361-9.282,11.618    c-1.048,0.096-2.08,0.312-3.144,0.312h-95.504v16h95.504c0.168,0,0.328,0,0.496,0c0.16,0,0.312-0.048,0.48-0.048    c6.348-0.105,12.617-1.43,18.464-3.904l66.888-28.4c3.186-1.36,6.79-1.36,9.976,0c3.311,1.407,5.91,4.097,7.2,7.456    C444.442,394.67,444.376,398.494,442.896,401.866z"></path>
+</g>
+</g><g><g><rect x="108.072" y="408.146" width="16" height="16"></rect>
+</g>
+</g><g><g><rect x="260.072" y="112.146" width="16" height="16"></rect>
+</g>
+</g><g><g><rect x="356.072" y="112.146" width="16" height="16"></rect>
+</g>
+</g><g><g><path d="M339.04,130.503c-1.844-5.929-6.032-10.847-11.592-13.613l-15.592-7.8c-3.376-1.686-4.745-5.789-3.059-9.165    c1.156-2.314,3.52-3.777,6.107-3.779h2.336c3.77,0.009,6.823,3.062,6.832,6.832v1.168h16v-1.168    c-0.037-9.94-6.511-18.71-16-21.672v-9.16h-16v9.16c-11.999,3.732-18.7,16.484-14.968,28.483    c1.844,5.929,6.032,10.847,11.592,13.613l15.592,7.8c3.376,1.686,4.745,5.789,3.059,9.165c-1.156,2.314-3.52,3.777-6.107,3.779    h-2.336c-3.77-0.009-6.823-3.062-6.832-6.832v-1.168h-16v1.168c0.037,9.94,6.511,18.71,16,21.672v9.16h16v-9.16    C336.071,155.254,342.772,142.501,339.04,130.503z"></path>
+</g>
+</g><g><g><path d="M316.072,32.146c-48.601,0-88,39.399-88,88s39.399,88,88,88c48.577-0.057,87.943-39.423,88-88    C404.072,71.545,364.673,32.146,316.072,32.146z M316.072,192.146c-39.746-0.044-71.956-32.254-72-72c0-39.765,32.236-72,72-72    c39.765,0,72,32.235,72,72C388.072,159.91,355.837,192.146,316.072,192.146z"></path>
+</g>
+</g></svg>
+            
+            
+          </span>
+                <h3 class="u-align-center u-text u-text-default u-text-6">Cheap</h3>
+                <p class="u-align-center u-text u-text-default u-text-7">utilize low amount of the low amount the bioactive molecule in the Nano gram range in comparison to existing technologies that utilize micro gram/ milligram of the bioactive molecule</p>
+                <a href="" class="u-active-none u-border-2 u-border-palette-2-light-1 u-btn u-btn-rectangle u-button-style u-hover-none u-text-body-color u-btn-3">learn more</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-grey-90 u-section-8" id="sec-6626">
-      <h1 class="u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Our Team</h1>
-      <div class="u-border-9 u-border-white u-line u-line-horizontal u-line-1"></div>
-      <p class="u-text u-text-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Meet our team and feel free to contact us any time!</p>
-      <div class="u-expanded-width u-palette-4-base u-shape u-shape-rectangle u-shape-1"></div>
-      <div class="u-clearfix u-gutter-20 u-layout-wrap u-layout-wrap-1">
-        <div class="u-gutter-0 u-layout" style="">
-          <div class="u-layout-row" style="">
-          
-            <div class="u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-2">
-              <div class="u-container-layout u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-2">
-                <img class="u-expanded-width u-image u-image-2" src="{{url_for('static',filename='images/rob.png')}}" data-image-width="787" data-image-height="864" style="border-radius: 2px;">
-                <h4 class="u-custom-font u-font-montserrat u-text u-text-6" spellcheck="false">Robert Khalil Hanna</h4>
-                <h5 class="u-custom-font u-text u-text-font u-text-grey-10 u-text-7">Product Manager  </h5>
-                <ul class="u-custom-list u-text u-text-8" spellcheck="false">
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li>Responsible</li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-5">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li></li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>Calm
-                  </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>Logical<br>
-                  </li>
-                </ul>
-                 <div class="u-social-icons u-spacing-10 u-social-icons-3">
-                  <a class="u-social-url" target="_blank" href="https://www.facebook.com/robert.merian" title="Facebook"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-4-base u-icon-7"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b4de"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-b4de"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://twitter.com/robmerian2424" title="Twitter"><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-palette-4-base u-icon-8"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-e5a1"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-e5a1"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://www.instagram.com/clou_900_dy/" title="Insta"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-palette-4-base u-icon-9"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-6493"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-6493"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                  </a>
-                </div>
+    
+    <section class="u-align-center u-clearfix u-valign-middle u-white u-section-5" id="carousel_8ae8">
+      <div class="u-custom-color-2 u-expanded-width u-shape u-shape-rectangle u-shape-1"></div>
+      <div class="u-list u-list-1">
+        <div class="u-repeater u-repeater-1">
+          <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-1">
+            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+              <div alt="" class="u-image u-image-circle u-image-1" data-image-width="291" data-image-height="291"></div>
+              <h3 class="u-align-center u-text u-text-default u-text-1">Shukry Habib</h3>
+              <p class="u-align-center u-text u-text-custom-color-1 u-text-default u-text-2">Founder</p>
+              <p class="u-align-center u-text u-text-3">Proffesor at Kings College London.<br>A dynamic stem cell expert and tissue engineer with expertise in metabolism, tissue physiology, biochemistry, biomaterials and advanced microscopy techniques.<br>
+              </p>
+              <div class="u-social-icons u-spacing-10 u-social-icons-1">
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-1 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ad72"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-ad72" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                </a>
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-1 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f916"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f916" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                </a>
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-1 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a0a0"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-a0a0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                </a>
+                <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-1 u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-78e1"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-78e1" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                </a>
               </div>
             </div>
-
-            <div class="u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-2">
-              <div class="u-container-layout u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-2">
-                <img style="border-radius: 2px;"class="u-expanded-width u-image u-image-2" src="{{url_for('static',filename='images/Layan.png')}}" data-image-width="787" data-image-height="864">
-                <h4 class="u-custom-font u-font-montserrat u-text u-text-6" spellcheck="false">Layan Hamdan</h4>
-                <h5 class="u-custom-font u-text u-text-font u-text-grey-10 u-text-7">  Product Manager </h5>
-                <ul class="u-custom-list u-text u-text-8" spellcheck="false">
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li>Optimistic </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-5">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li></li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>Considert 
-                  </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div> Vision oriented  <br>
-                  </li>
-                </ul>
-               <div class="u-social-icons u-spacing-10 u-social-icons-1">
-                  <a class="u-social-url" target="_blank" href=" https://www.facebook.com/layan.hamdan.311" title="Facebook"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5d79"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-5d79"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://www.linkedin.com/in/layan-hamdan-0aa005213/" title="Linkedin"><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-629e"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-629e"><path d="m160.007812 423h-70v-226h70zm6.984376-298.003906c0-22.628906-18.359376-40.996094-40.976563-40.996094-22.703125 0-41.015625 18.367188-41.015625 40.996094 0 22.636718 18.3125 41.003906 41.015625 41.003906 22.617187 0 40.976563-18.367188 40.976563-41.003906zm255.007812 173.667968c0-60.667968-12.816406-105.664062-83.6875-105.664062-34.054688 0-56.914062 17.03125-66.246094 34.742188h-.066406v-30.742188h-68v226h68v-112.210938c0-29.386718 7.480469-57.855468 43.90625-57.855468 35.929688 0 37.09375 33.605468 37.09375 59.722656v110.34375h69zm90 153.335938v-392c0-33.085938-26.914062-60-60-60h-392c-33.085938 0-60 26.914062-60 60v392c0 33.085938 26.914062 60 60 60h392c33.085938 0 60-26.914062 60-60zm-60-412c11.027344 0 20 8.972656 20 20v392c0 11.027344-8.972656 20-20 20h-392c-11.027344 0-20-8.972656-20-20v-392c0-11.027344 8.972656-20 20-20zm0 0"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://instagram.com/ha.layan?utm_medium=copy_link" title="Instagram"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-palette-1-base u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ae04"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-ae04"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                  </a>
-                </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-2">
+            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+              <div alt="" class="u-image u-image-circle u-image-2" data-image-width="594" data-image-height="699"></div>
+              <h3 class="u-align-center u-text u-text-default u-text-4">Moin Mattar</h3>
+              <p class="u-align-center u-text u-text-custom-color-1 u-text-default u-text-5">Fundraiser</p>
+              <p class="u-align-center u-text u-text-6">Co-Founder + Lead Developer at Aster<br>Young entreprenuer&nbsp;&nbsp;<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaa
+              </p>
+              <div class="u-social-icons u-spacing-10 u-social-icons-2">
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-1 u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ad72"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-ad72" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                </a>
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-1 u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f916"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f916" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                </a>
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-1 u-icon-7"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a0a0"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-a0a0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                </a>
+                <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-1 u-icon-8"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-78e1"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-78e1" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                </a>
               </div>
             </div>
-
-            <div class="u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-2">
-              <div class="u-container-layout u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-2">
-                <img style="border-radius: 2px;"class="u-expanded-width u-image u-image-2" src="{{url_for('static',filename='images/moin.png')}}" data-image-width="787" data-image-height="864">
-                <h4 class="u-custom-font u-font-montserrat u-text u-text-6" spellcheck="false">Moin Arz Mattar</h4>
-                <h5 class="u-custom-font u-text u-text-font u-text-grey-10 u-text-7">Developer </h5>
-                <ul class="u-custom-list u-text u-text-8" spellcheck="false">
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li>Entrepreneur</li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-5">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li> Athletic</li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>Enthusiastic
-                  </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-        
-                  </li>
-                </ul>
-                <div class="u-social-icons u-spacing-10 u-social-icons-1">
-                  <a class="u-social-url" target="_blank" href=" https://www.facebook.com/moin.mattar.9" title="Facebook"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5d79"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-5d79"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://www.linkedin.com/in/moin-mattar-8987841b4/" title="Linkedin"><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-629e"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-629e"><path d="m160.007812 423h-70v-226h70zm6.984376-298.003906c0-22.628906-18.359376-40.996094-40.976563-40.996094-22.703125 0-41.015625 18.367188-41.015625 40.996094 0 22.636718 18.3125 41.003906 41.015625 41.003906 22.617187 0 40.976563-18.367188 40.976563-41.003906zm255.007812 173.667968c0-60.667968-12.816406-105.664062-83.6875-105.664062-34.054688 0-56.914062 17.03125-66.246094 34.742188h-.066406v-30.742188h-68v226h68v-112.210938c0-29.386718 7.480469-57.855468 43.90625-57.855468 35.929688 0 37.09375 33.605468 37.09375 59.722656v110.34375h69zm90 153.335938v-392c0-33.085938-26.914062-60-60-60h-392c-33.085938 0-60 26.914062-60 60v392c0 33.085938 26.914062 60 60 60h392c33.085938 0 60-26.914062 60-60zm-60-412c11.027344 0 20 8.972656 20 20v392c0 11.027344-8.972656 20-20 20h-392c-11.027344 0-20-8.972656-20-20v-392c0-11.027344 8.972656-20 20-20zm0 0"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://www.instagram.com/moin_mattar/" title="Instagram"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-palette-1-base u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ae04"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-ae04"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                  </a>
-                </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-3">
+            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+              <div alt="" class="u-image u-image-circle u-image-3" data-image-width="1280" data-image-height="853"></div>
+              <h3 class="u-align-center u-text u-text-default u-text-7">IDK what her name</h3>
+              <p class="u-align-center u-text u-text-custom-color-1 u-text-default u-text-8">Something</p>
+              <p class="u-align-center u-text u-text-9">aaaaaaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaa<br>aaaaaaaaaa<br>aaa<br>aaaaaaa<br>
+                <br>
+              </p>
+              <div class="u-social-icons u-spacing-10 u-social-icons-3">
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-1 u-icon-9"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ad72"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-ad72" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                </a>
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-1 u-icon-10"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f916"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f916" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                </a>
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-1 u-icon-11"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a0a0"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-a0a0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                </a>
+                <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-1 u-icon-12"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-78e1"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-78e1" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                </a>
               </div>
             </div>
-
-            <div class="u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-2">
-              <div class="u-container-layout u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-2">
-                <img style="border-radius: 2px;"class="u-expanded-width u-image u-image-2" src="{{url_for('static',filename='images/Hala.png')}}" data-image-width="787" data-image-height="864">
-                <h4 class="u-custom-font u-font-montserrat u-text u-text-6" spellcheck="false">Hala <br>Abdin</h4>
-                <h5 class="u-custom-font u-text u-text-font u-text-grey-10 u-text-7">Developer</h5>
-                <ul class="u-custom-list u-text u-text-8" spellcheck="false">
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li>Leader</li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-5">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li></li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>Problem solver
-                  </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>determined<br>
-                  </li>
-                </ul>
-                <div class="u-social-icons u-spacing-10 u-social-icons-2">
-                  <a class="u-social-url" target="_blank" href="https://www.facebook.com/tamarakreitler" title="Facebook"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d12"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-1d12"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://www.youtube.com/user/tamarakreitler" title="Youtube"><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 -62 512.00199 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3ef8"></use></svg><svg class="u-svg-content" viewBox="0 -62 512.00199 512" id="svg-3ef8"><path d="m334.808594 170.992188-113.113282-61.890626c-6.503906-3.558593-14.191406-3.425781-20.566406.351563-6.378906 3.78125-10.183594 10.460937-10.183594 17.875v122.71875c0 7.378906 3.78125 14.046875 10.117188 17.832031 3.308594 1.976563 6.976562 2.96875 10.652344 2.96875 3.367187 0 6.742187-.832031 9.847656-2.503906l113.117188-60.824219c6.714843-3.613281 10.90625-10.59375 10.9375-18.222656.027343-7.628906-4.113282-14.640625-10.808594-18.304687zm-113.859375 63.617187v-91.71875l84.539062 46.257813zm0 0"></path><path d="m508.234375 91.527344-.023437-.234375c-.433594-4.121094-4.75-40.777344-22.570313-59.421875-20.597656-21.929688-43.949219-24.59375-55.179687-25.871094-.929688-.105469-1.78125-.203125-2.542969-.304688l-.894531-.09375c-67.6875-4.921874-169.910157-5.5937495-170.933594-5.59765575l-.089844-.00390625-.089844.00390625c-1.023437.00390625-103.246094.67578175-171.542968 5.59765575l-.902344.09375c-.726563.097657-1.527344.1875-2.398438.289063-11.101562 1.28125-34.203125 3.949219-54.859375 26.671875-16.972656 18.445312-21.878906 54.316406-22.382812 58.347656l-.058594.523438c-.152344 1.714844-3.765625 42.539062-3.765625 83.523437v38.3125c0 40.984375 3.613281 81.808594 3.765625 83.527344l.027344.257813c.433593 4.054687 4.746093 40.039062 22.484375 58.691406 19.367187 21.195312 43.855468 24 57.027344 25.507812 2.082031.238282 3.875.441406 5.097656.65625l1.183594.164063c39.082031 3.71875 161.617187 5.550781 166.8125 5.625l.15625.003906.15625-.003906c1.023437-.003907 103.242187-.675781 170.929687-5.597657l.894531-.09375c.855469-.113281 1.816406-.214843 2.871094-.324218 11.039062-1.171875 34.015625-3.605469 54.386719-26.019532 16.972656-18.449218 21.882812-54.320312 22.382812-58.347656l.058594-.523437c.152344-1.71875 3.769531-42.539063 3.769531-83.523438v-38.3125c-.003906-40.984375-3.617187-81.804687-3.769531-83.523437zm-26.238281 121.835937c0 37.933594-3.3125 77-3.625 80.585938-1.273438 9.878906-6.449219 32.574219-14.71875 41.5625-12.75 14.027343-25.847656 15.417969-35.410156 16.429687-1.15625.121094-2.226563.238282-3.195313.359375-65.46875 4.734375-163.832031 5.460938-168.363281 5.488281-5.082032-.074218-125.824219-1.921874-163.714844-5.441406-1.941406-.316406-4.039062-.558594-6.25-.808594-11.214844-1.285156-26.566406-3.042968-38.371094-16.027343l-.277344-.296875c-8.125-8.464844-13.152343-29.6875-14.429687-41.148438-.238281-2.710937-3.636719-42.238281-3.636719-80.703125v-38.3125c0-37.890625 3.304688-76.914062 3.625-80.574219 1.519532-11.636718 6.792969-32.957031 14.71875-41.574218 13.140625-14.453125 26.996094-16.054688 36.160156-17.113282.875-.101562 1.691407-.195312 2.445313-.292968 66.421875-4.757813 165.492187-5.464844 169.046875-5.492188 3.554688.023438 102.589844.734375 168.421875 5.492188.808594.101562 1.691406.203125 2.640625.3125 9.425781 1.074218 23.671875 2.699218 36.746094 16.644531l.121094.128906c8.125 8.464844 13.152343 30.058594 14.429687 41.75.226563 2.558594 3.636719 42.171875 3.636719 80.71875zm0 0"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://www.instagram.com/tamarakreitler/" title="Instagram"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-palette-1-base u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4e61"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-4e61"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          
-    </section>
-    <section style="" class="u-clearfix u-grey-90 u-section-9" id="carousel_1f47">
-      <div class="u-expanded-width u-palette-4-base u-shape u-shape-rectangle u-shape-1"></div>
-      <div class="u-clearfix u-gutter-20 u-layout-wrap u-layout-wrap-1">
-        <div class="u-gutter-0 u-layout">
-          <div class="u-layout-row">
-            <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-2">
-              <div class="u-container-layout u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-2">
-                <img style="border-radius: 2px;"class="u-expanded-width u-image u-image-2" src="{{url_for('static',filename='images/Sari.png')}}" data-image-width="608" data-image-height="1080">
-                <h4 class="u-custom-font u-font-montserrat u-text u-text-4" spellcheck="false">Sari Khamis</h4>
-                <h5 class="u-custom-font u-text u-text-font u-text-grey-10 u-text-5">Designer </h5>
-                <ul class="u-custom-list u-text u-text-6" spellcheck="false">
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li> Trustworthy </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-5">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li>Adviser</li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div> Positive  
-                  </li>
-                </ul>
-                <div class="u-social-icons u-spacing-10 u-social-icons-2">
-                  <a class="u-social-url" target="_blank" href="https://www.facebook.com/sari.khamis.14" title="Facebook"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d12"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-1d12"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://www.instagram.com/sarikh2004/" title="Instagram"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-palette-1-base u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4e61"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-4e61"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-2">
-              <div class="u-container-layout u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-2">
-                <img style="border-radius: 2px;"class="u-expanded-width u-image u-image-2" src="{{url_for('static',filename='images/Tamara.png')}}" data-image-width="608" data-image-height="1080">
-                <h4 class="u-custom-font u-font-montserrat u-text u-text-4" spellcheck="false">Tamara Kreitler</h4>
-                <h5 class="u-custom-font u-text u-text-font u-text-grey-10 u-text-5">Designer </h5>
-                <ul class="u-custom-list u-text u-text-6" spellcheck="false">
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li> Ambitious  </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-5">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li>Caring </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div> Kind 
-                  </li>
-                </ul>
-                <div class="u-social-icons u-spacing-10 u-social-icons-2">
-                  <a class="u-social-url" target="_blank" href="https://www.facebook.com/sari.khamis.14" title="Facebook"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d12"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-1d12"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://www.instagram.com/sarikh2004/" title="Instagram"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-palette-1-base u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4e61"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-4e61"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-2">
-              <div class="u-container-layout u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-2">
-                <img style="border-radius: 2px;"class="u-expanded-width u-image u-image-2" src="{{url_for('static',filename='images/pp.jpg')}}" data-image-width="608" data-image-height="1080">
-                <h4 class="u-custom-font u-font-montserrat u-text u-text-4" spellcheck="false">Sarah Dweik</h4>
-                <h5 class="u-custom-font u-text u-text-font u-text-grey-10 u-text-5">Designer </h5>
-                <ul class="u-custom-list u-text u-text-6" spellcheck="false">
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li> Determined </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-5">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li>Considert </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-4">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div> Wise 
-                  </li>
-                </ul>
-                <div class="u-social-icons u-spacing-10 u-social-icons-2">
-                  <a class="u-social-url" target="_blank" href="https://www.facebook.com/sari.khamis.14" title="Facebook"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d12"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-1d12"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://www.instagram.com/sarikh2004/" title="Instagram"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-palette-1-base u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4e61"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-4e61"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
-<div class="u-expanded-width u-palette-4-base u-shape u-shape-rectangle u-shape-1"></div> <div class="u-clearfix u-gutter-20 u-layout-wrap u-layout-wrap-2">
-        <div class="u-gutter-0 u-layout">
-          <div class="u-layout-row">
-            <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-5">
-              <div class="u-container-layout u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-5">
-                <img style="border-radius: 2px;"class="u-image u-image-5" src="{{url_for('static',filename='images/Ofir.png')}}" data-image-width="549" data-image-height="1024">
-                <h4 class="u-custom-font u-font-montserrat u-text u-text-13" spellcheck="false">Ofir Nakash</h4>
-                <h5 class="u-custom-font u-text u-text-font u-text-grey-10 u-text-14">UX</h5>
-                <ul class="u-custom-list u-text u-text-15" spellcheck="false">
-                  <li>
-                    <div class="u-list-icon u-list-icon-13">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li> Energized  </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-14">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li> Good Listener </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-15">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div> Creative
-                  </li>
-                </ul>
-               <div class="u-social-icons u-spacing-10 u-social-icons-2">
-                  <a class="u-social-url" target="_blank" href="https://www.facebook.com/sari.khamis.14" title="Facebook"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d12"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-1d12"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://www.instagram.com/sarikh2004/" title="Instagram"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-palette-1-base u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4e61"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-4e61"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-5">
-              <div class="u-container-layout u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-5">
-                <img style="border-radius: 2px;"class="u-image u-image-5" src="{{url_for('static',filename='images/Sameha.png')}}" data-image-width="549" data-image-height="1024">
-                <h4 class="u-custom-font u-font-montserrat u-text u-text-13" spellcheck="false">Sameha Abbas</h4>
-                <h5 class="u-custom-font u-text u-text-font u-text-grey-10 u-text-14">UX</h5>
-                <ul class="u-custom-list u-text u-text-15" spellcheck="false">
-                  <li>
-                    <div class="u-list-icon u-list-icon-13">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li> Determined  </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-14">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li> Reliable </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-15">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div> Ambitious 
-                  </li>
-                </ul>
-               <div class="u-social-icons u-spacing-10 u-social-icons-2">
-                  <a class="u-social-url" target="_blank" href="https://www.facebook.com/sari.khamis.14" title="Facebook"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d12"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-1d12"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://www.instagram.com/sarikh2004/" title="Instagram"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-palette-1-base u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4e61"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-4e61"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-5">
-              <div class="u-container-layout u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-5">
-                <img style="border-radius: 2px;"class="u-image u-image-5" src="{{url_for('static',filename='images/pp.png')}}" data-image-width="549" data-image-height="1024">
-                <h4 class="u-custom-font u-font-montserrat u-text u-text-13" spellcheck="false">Yonatan Fingerut</h4>
-                <h5 class="u-custom-font u-text u-text-font u-text-grey-10 u-text-14">UX</h5>
-                <ul class="u-custom-list u-text u-text-15" spellcheck="false">
-                  <li>
-                    <div class="u-list-icon u-list-icon-13">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li> Optimistic </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-14">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div>
-                  </li>
-                  <li> Reliable </li>
-                  <li>
-                    <div class="u-list-icon u-list-icon-15">
-                      <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-6992"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                    </div> Committed 
-                  </li>
-                </ul>
-               <div class="u-social-icons u-spacing-10 u-social-icons-2">
-                  <a class="u-social-url" target="_blank" href="https://www.facebook.com/sari.khamis.14" title="Facebook"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d12"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-1d12"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="https://www.instagram.com/sarikh2004/" title="Instagram"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-palette-1-base u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4e61"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-4e61"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-    </section>
-    <section class="u-clearfix u-palette-5-dark-3 u-section-11" id="sec-2427">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-align-left u-shape u-shape-svg u-text-palette-1-light-1 u-shape-1">
-          <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-91b9"></use></svg>
-          <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-91b9"><path d="M160,0v160H0V0H160z"></path></svg>
+          </div>
         </div>
-        <img class="u-image u-image-round u-radius-34 u-image-1" src="{{url_for('static',filename='images/p-min-min.png')}}" alt="" data-image-width="1280" data-image-height="819" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
-        <img class="u-image u-image-round u-radius-22 u-image-2" src="{{url_for('static',filename='images/milky.jpg')}}" alt="" data-image-width="275" data-image-height="516" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
-        <img class="u-image u-image-round u-radius-26 u-image-3" src="{{url_for('static',filename='images/coding2.jpg')}}" alt="" data-image-width="300" data-image-height="300" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
-        <div class="u-border-1 u-border-palette-1-light-2 u-grey-5 u-shape u-shape-svg u-text-white u-shape-2" data-animation-name="rotateIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
-          <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3773"></use></svg>
-          <svg class="u-svg-content" viewBox="-0.5 -0.5 161 161" x="0px" y="0px" id="svg-3773"><path d="M160,0v160H0V0H160z"></path></svg>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-5 u-section-6" id="sec-8b79">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-custom-color-1 u-expanded-width u-opacity u-opacity-75 u-shape u-shape-rectangle u-shape-1"></div>
+        <img src="images/photo-1576091160550-2173dba999ef.jpg" alt="" class="u-image u-image-round u-radius-17 u-image-1" data-image-width="750" data-image-height="500">
+        <div class="u-container-style u-group u-white u-group-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
+          <div class="u-container-layout u-container-layout-1">
+            <h1 class="u-custom-font u-font-playfair-display u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">High Quality Treatment&nbsp;</h1>
+            <p class="u-text u-text-2">I need more content and description so it can actually go heereeee<br>Asdasdadadasadsda<br>
+              <br>d<br>asdad
+            </p>
+            <a href="https://nicepage.com/k/adult-html-templates" class="u-active-black u-border-none u-btn u-button-style u-custom-color-1 u-hover-black u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-1">book now</a>
+          </div>
         </div>
-        <h3 class="u-align-left u-text u-text-palette-5-dark-3 u-text-1" spellcheck="false">• App Development •</h3>
-        <p class="u-align-center u-text u-text-palette-5-dark-3 u-text-2" spellcheck="false">
-The Aster app uses professional coping mechanisms such as dbt(dialectical behavior therapy), a method popular among therapists, and other well-known coping mechanisms. We specially design these coping mechanisms for each user of our app.
-The app contains a unique journaling system, a mood calendar to track users’ feelings and help them cope with their emotions. As well as info videos, event questions and more.
-
-</p>
       </div>
     </section>
-     <section class="u-clearfix u-section-6" id="sec-4fb9">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-align-center u-text u-text-default u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">School Collaborations</h2>
-        <h4 class="u-align-center u-text u-text-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Coming Soon <span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="0 0 426.667 426.667" x="0px" y="0px" style="width: 1em; height: 1em;"><g><g><circle cx="42.667" cy="213.333" r="42.667"></circle>
-</g>
-</g><g><g><circle cx="213.333" cy="213.333" r="42.667"></circle>
-</g>
-</g><g><g><circle cx="384" cy="213.333" r="42.667"></circle>
-</g>
-</g></svg><img></span>
-        </h4>
+    <section class="u-clearfix u-image u-section-7" id="carousel_4c38" data-image-width="1200" data-image-height="800">
+      <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-26-xl u-size-28-lg u-size-28-md u-size-28-sm u-size-28-xs u-layout-cell-1">
+              <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-container-layout-1">
+                <div class="u-border-6 u-border-black u-line u-line-horizontal u-line-1"></div>
+                <div class="u-custom-color-1 u-shape u-shape-circle u-shape-1"></div>
+                <h1 class="u-custom-font u-font-raleway u-text u-title u-text-1">Invest In Oregene</h1>
+                <p class="u-text u-text-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Invest in the newest and strongest company in the market<br>Oregene is looking forward to recruting around 6£ Million in oder to raise enough money to start testing ReBone and luanch it's first product.&nbsp;
+                </p>
+                <a href="About.html#carousel_d247" data-page-id="290640076" class="u-align-center u-border-none u-btn u-btn-round u-button-style u-grey-80 u-hover-custom-color-3 u-radius-6 u-btn-1" data-animation-name="jackInTheBox" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">Invest Now</a>
+              </div>
+            </div>
+            <div class="u-container-style u-image u-layout-cell u-right-cell u-size-32-lg u-size-32-md u-size-32-sm u-size-32-xs u-size-34-xl u-image-1" data-image-width="1200" data-image-height="800">
+              <div class="u-container-layout u-container-layout-2"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="u-align-center u-clearfix u-grey-5 u-section-12" id="carousel_6589">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1" data-animation-name="jackInTheBox" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">Featured sponsors</h2>
-        <img class="u-align-left u-expanded-width-xs u-image u-image-default u-image-1" src="{{url_for('static',filename='images/logo.png')}}" alt="" data-image-width="373" data-image-height="139" data-href="https://academic-union.org/" data-target="_blank" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
-        <img class="u-align-center-xs u-image u-image-default u-preserve-proportions u-image-2" src="{{url_for('static',filename='images/23380207_227747581095831_7871303110929615589_n.png')}}" alt="" data-image-width="559" data-image-height="559" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
-        <p class="u-text u-text-default u-text-2">You're in good company&nbsp;<span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="0 0 512.001 512.001" x="0px" y="0px" style="width: 1em; height: 1em;"><g><g><path d="M402.178,28.989C385.544,10.295,362.487,0,337.253,0c-28.166,0-52.581,13.318-70.606,38.513    c-1.352,1.889-2.616,3.778-3.801,5.648c-1.184-1.871-2.448-3.759-3.8-5.648C241.02,13.318,216.605,0,188.439,0    c-25.234,0-48.292,10.295-64.925,28.988c-15.784,17.74-24.478,41.456-24.478,66.779c0,27.519,10.679,52.912,33.604,79.916    c20.003,23.56,48.695,47.777,81.919,75.819c12.277,10.363,24.973,21.078,38.464,32.771c2.818,2.442,6.32,3.664,9.822,3.664    c3.501,0,7.003-1.222,9.822-3.664c13.489-11.69,26.183-22.405,38.46-32.766c21.337-18.01,39.764-33.563,55.755-48.649    c31.046-29.292,59.774-62.539,59.774-107.09C426.656,70.444,417.963,46.729,402.178,28.989z M346.299,181.041    c-15.386,14.517-33.52,29.822-54.517,47.544c-9.341,7.883-18.921,15.969-28.936,24.557c-10.017-8.587-19.6-16.675-28.941-24.56    c-65.399-55.199-104.875-88.517-104.875-132.814c-0.002-37.497,25.538-65.773,59.408-65.773c18.095,0,33.484,8.518,45.739,25.317    c10.058,13.786,14.187,28.078,14.215,28.174c1.8,6.497,7.712,10.995,14.453,10.995s12.653-4.498,14.453-10.995    c0.148-0.535,15.33-53.491,59.955-53.491c33.869,0,59.41,28.277,59.41,65.773C396.663,122.937,382.542,146.845,346.299,181.041z"></path>
-</g>
-</g><g><g><path d="M466.954,302.047c-12.441,0-24.442,5.223-32.925,14.329l-44.077,47.318c-5.697-18.316-22.805-31.653-42.971-31.653h-69.28    c-9.699,0-19.052-3.529-26.334-9.937c-39.163-34.464-98.029-34.767-137.564-0.953c-8.153-11.543-21.587-19.103-36.763-19.103    H15.054c-8.282,0-14.997,6.714-14.997,14.997v179.96c0,8.282,6.714,14.997,14.997,14.997H77.04    c13.468,0,25.564-5.957,33.816-15.365l8.881,2.496c30.378,8.539,61.78,12.868,93.335,12.868H346.98    c32.866,0,64.261-15.698,83.981-41.991l71.999-95.997c0.001-0.002,0.002-0.004,0.004-0.006c5.875-7.834,8.98-17.16,8.98-26.971    C511.944,322.229,491.761,302.047,466.954,302.047z M92.037,467.01c0,8.269-6.727,14.997-14.997,14.997h-46.99V332.04h46.99    c8.269,0,14.997,6.727,14.997,14.997V467.01z M478.967,356.014c0,0.001-0.001,0.001-0.002,0.002l-71.998,95.999    c-14.086,18.781-36.511,29.993-59.987,29.993H213.075c-28.811,0-57.483-3.953-85.219-11.749l-5.865-1.649    c0.019-0.532,0.041-1.063,0.041-1.599V353.816l10.451-9.197c28.24-24.85,70.831-24.852,99.073,0    c12.761,11.229,29.148,17.413,46.147,17.413h69.28c8.269,0,14.997,6.728,14.997,14.997c0,8.269-6.727,14.997-14.997,14.997    H240.398c-8.282,0-14.997,6.714-14.997,14.997s6.714,14.997,14.997,14.997h116.634c12.441,0,24.44-5.221,32.921-14.325    l66.023-70.876c2.871-3.082,6.77-4.779,10.978-4.779c8.269,0,14.997,6.727,14.997,14.997    C481.951,350.307,480.919,353.411,478.967,356.014z"></path>
-</g>
-</g></svg><img></span>
-        </p>
-        <a href="Donate.html#carousel_5347" data-page-id="508791" class="u-btn u-button-style u-none u-text-hover-palette-1-base u-text-palette-3-dark-1 u-btn-1" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""><span class="u-icon u-text-palette-2-base u-icon-2"><svg class="u-svg-content" viewBox="0 0 412.72 412.72" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M404.72,82.944c-0.027,0-0.054,0-0.08,0h0h-27.12v-9.28c0.146-3.673-2.23-6.974-5.76-8    c-18.828-4.934-38.216-7.408-57.68-7.36c-32,0-75.6,7.2-107.84,40c-32-33.12-75.92-40-107.84-40    c-19.464-0.048-38.852,2.426-57.68,7.36c-3.53,1.026-5.906,4.327-5.76,8v9.2H8c-4.418,0-8,3.582-8,8v255.52c0,4.418,3.582,8,8,8    c1.374-0.004,2.724-0.362,3.92-1.04c0.8-0.4,80.8-44.16,192.48-16h1.2h0.72c0.638,0.077,1.282,0.077,1.92,0    c112-28.4,192,15.28,192.48,16c2.475,1.429,5.525,1.429,8,0c2.46-1.42,3.983-4.039,4-6.88V90.944    C412.72,86.526,409.139,82.944,404.72,82.944z M16,333.664V98.944h19.12v200.64c-0.05,4.418,3.491,8.04,7.909,8.09    c0.432,0.005,0.864-0.025,1.291-0.09c16.55-2.527,33.259-3.864,50-4c23.19-0.402,46.283,3.086,68.32,10.32    C112.875,307.886,62.397,314.688,16,333.664z M94.32,287.664c-14.551,0.033-29.085,0.968-43.52,2.8V79.984    c15.576-3.47,31.482-5.241,47.44-5.28c29.92,0,71.2,6.88,99.84,39.2l0.24,199.28C181.68,302.304,149.2,287.664,94.32,287.664z     M214.32,113.904c28.64-32,69.92-39.2,99.84-39.2c15.957,0.047,31.863,1.817,47.44,5.28v210.48    c-14.354-1.849-28.808-2.811-43.28-2.88c-54.56,0-87.12,14.64-104,25.52V113.904z M396.64,333.664    c-46.496-19.028-97.09-25.831-146.96-19.76c22.141-7.26,45.344-10.749,68.64-10.32c16.846,0.094,33.663,1.404,50.32,3.92    c4.368,0.663,8.447-2.341,9.11-6.709c0.065-0.427,0.095-0.859,0.09-1.291V98.944h19.12L396.64,333.664z"></path></svg><img></span>&nbsp;Read More
-        </a>
-      </div>
-    </section>
-
-    <section class="u-clearfix u-section-13" id="sec-a9ff">
+    <section class="u-clearfix u-grey-90 u-section-8" id="carousel_4730">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-          <div class="u-gutter-0 u-layout">
+          <div class="u-layout">
             <div class="u-layout-row">
-              <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
-                <div class="u-container-layout u-container-layout-1">
-                  <h2 class="u-text u-text-1">Follow Us</h2>
-                  <p class="u-text u-text-2" spellcheck="false">Feel free to always be updated and ask any questions on our pages.</p>
-                  <a href="https://chat.whatsapp.com/IwDNRSjIhoBIljajSCbfQG" class="u-btn u-btn-round u-button-style u-gradient u-none u-radius-16 u-text-body-alt-color u-btn-1" target="_blank" data-animation-name="jackInTheBox" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""><span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="-23 -21 682 682.66669" style="width: 1em; height: 1em;"><path d="m544.386719 93.007812c-59.875-59.945312-139.503907-92.9726558-224.335938-93.007812-174.804687 0-317.070312 142.261719-317.140625 317.113281-.023437 55.894531 14.578125 110.457031 42.332032 158.550781l-44.992188 164.335938 168.121094-44.101562c46.324218 25.269531 98.476562 38.585937 151.550781 38.601562h.132813c174.785156 0 317.066406-142.273438 317.132812-317.132812.035156-84.742188-32.921875-164.417969-92.800781-224.359376zm-224.335938 487.933594h-.109375c-47.296875-.019531-93.683594-12.730468-134.160156-36.742187l-9.621094-5.714844-99.765625 26.171875 26.628907-97.269531-6.269532-9.972657c-26.386718-41.96875-40.320312-90.476562-40.296875-140.28125.054688-145.332031 118.304688-263.570312 263.699219-263.570312 70.40625.023438 136.589844 27.476562 186.355469 77.300781s77.15625 116.050781 77.132812 186.484375c-.0625 145.34375-118.304687 263.59375-263.59375 263.59375zm144.585938-197.417968c-7.921875-3.96875-46.882813-23.132813-54.148438-25.78125-7.257812-2.644532-12.546875-3.960938-17.824219 3.96875-5.285156 7.929687-20.46875 25.78125-25.09375 31.066406-4.625 5.289062-9.242187 5.953125-17.167968 1.984375-7.925782-3.964844-33.457032-12.335938-63.726563-39.332031-23.554687-21.011719-39.457031-46.960938-44.082031-54.890626-4.617188-7.9375-.039062-11.8125 3.476562-16.171874 8.578126-10.652344 17.167969-21.820313 19.808594-27.105469 2.644532-5.289063 1.320313-9.917969-.664062-13.882813-1.976563-3.964844-17.824219-42.96875-24.425782-58.839844-6.4375-15.445312-12.964843-13.359374-17.832031-13.601562-4.617187-.230469-9.902343-.277344-15.1875-.277344-5.28125 0-13.867187 1.980469-21.132812 9.917969-7.261719 7.933594-27.730469 27.101563-27.730469 66.105469s28.394531 76.683594 32.355469 81.972656c3.960937 5.289062 55.878906 85.328125 135.367187 119.648438 18.90625 8.171874 33.664063 13.042968 45.175782 16.695312 18.984374 6.03125 36.253906 5.179688 49.910156 3.140625 15.226562-2.277344 46.878906-19.171875 53.488281-37.679687 6.601563-18.511719 6.601563-34.375 4.617187-37.683594-1.976562-3.304688-7.261718-5.285156-15.183593-9.253906zm0 0" fill-rule="evenodd"></path></svg><img></span>&nbsp;​&nbsp;Chat with us
-                  </a>
+              <div class="u-size-32">
+                <div class="u-layout-col">
+                  <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-60 u-layout-cell-1">
+                    <div class="u-container-layout u-valign-middle-xl u-container-layout-1">
+                      <div class="u-align-left u-form u-form-1">
+                        <form action="#" method="POST" class="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form" style="padding: 10px" source="custom" name="form">
+                          <div class="u-form-group u-form-name u-form-group-1">
+                            <label for="name-5a14" class="u-form-control-hidden u-label" wfd-invisible="true">Name</label>
+                            <input type="text" placeholder="Enter your Name" id="name-5a14" name="name" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required="">
+                          </div>
+                          <div class="u-form-email u-form-group u-form-group-2">
+                            <label for="email-5a14" class="u-form-control-hidden u-label" wfd-invisible="true">Email</label>
+                            <input type="email" placeholder="Enter a valid email address" id="email-5a14" name="email" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required="">
+                          </div>
+                          <div class="u-form-group u-form-message u-form-group-3">
+                            <label for="message-5a14" class="u-form-control-hidden u-label" wfd-invisible="true">Message</label>
+                            <textarea placeholder="What would you like to say?" rows="4" cols="50" id="message-5a14" name="message" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required=""></textarea>
+                          </div>
+                          <div class="u-align-left u-form-group u-form-submit u-form-group-4">
+                            <a href="#" class="u-active-white u-border-2 u-border-white u-btn u-btn-submit u-button-style u-hover-white u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-1">Submit</a>
+                            <input type="submit" value="submit" class="u-form-control-hidden" wfd-invisible="true">
+                          </div>
+                          <div class="u-form-send-message u-form-send-success" wfd-invisible="true"> Thank you! Your message has been sent. </div>
+                          <div class="u-form-send-error u-form-send-message" wfd-invisible="true"> Unable to send your message. Please fix errors then try again. </div>
+                          <input type="hidden" value="" name="recaptchaResponse" wfd-invisible="true">
+                        </form>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="u-align-left-sm u-align-left-xs u-align-right-lg u-align-right-md u-align-right-xl u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
-                <div class="u-container-layout u-valign-middle u-container-layout-2">
-                  <div class="u-social-icons u-spacing-20 u-social-icons-1" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
-                    <a class="u-social-url" title="facebook" target="_blank" href="https://facebook.com/Aster"><span class="u-icon u-social-facebook u-social-icon u-text-palette-1-light-1 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5e9f"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-5e9f"><path d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z"></path></svg></span>
-                    </a>
-                    <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/name"><span class="u-icon u-social-icon u-social-twitter u-text-palette-1-light-1 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9173"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-9173"><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm116.886719 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0"></path></svg></span>
-                    </a>
-                    <a class="u-social-url" title="instagram" target="_blank" href="https://instagram.com/Aster"><span class="u-icon u-social-icon u-social-instagram u-text-palette-1-light-1 u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ddc9"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-ddc9"><path d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0"></path><path d="m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.898437 17.640625-17.640625 17.640625zm0 0"></path><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm146.113281 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0"></path></svg></span>
-                    </a>
-                    <a class="u-social-url" target="_blank" title="linkedin" href="https://www.linkedin.com/company/aster4you/"><span class="u-icon u-social-custom u-social-icon u-text-palette-1-light-1 u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-2804"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-2804"><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm-74.390625 387h-62.347656v-187.574219h62.347656zm-31.171875-213.1875h-.40625c-20.921875 0-34.453125-14.402344-34.453125-32.402344 0-18.40625 13.945313-32.410156 35.273437-32.410156 21.328126 0 34.453126 14.003906 34.859376 32.410156 0 18-13.53125 32.402344-35.273438 32.402344zm255.984375 213.1875h-62.339844v-100.347656c0-25.21875-9.027343-42.417969-31.585937-42.417969-17.222656 0-27.480469 11.601563-31.988282 22.800781-1.648437 4.007813-2.050781 9.609375-2.050781 15.214844v104.75h-62.34375s.816407-169.976562 0-187.574219h62.34375v26.558594c8.285157-12.78125 23.109375-30.960937 56.1875-30.960937 41.019531 0 71.777344 26.808593 71.777344 84.421874zm0 0"></path></svg></span>
-                    </a>
-                    <a class="u-social-url" target="_blank" title="pinterest" href="https://pinterest.com/name"><span class="u-icon u-social-custom u-social-icon u-text-palette-1-light-1 u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 97.75 97.75" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-251c"></use></svg><svg class="u-svg-content" viewBox="0 0 97.75 97.75" x="0px" y="0px" id="svg-251c" style="enable-background:new 0 0 97.75 97.75;"><g><path d="M48.875,0C21.883,0,0,21.882,0,48.875S21.883,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.867,0,48.875,0z    M54.499,65.109c-4.521,0-8.773-2.444-10.229-5.219c0,0-2.432,9.645-2.943,11.506c-1.813,6.58-7.146,13.162-7.561,13.701   c-0.289,0.375-0.928,0.258-0.994-0.24c-0.113-0.838-1.475-9.139,0.127-15.909c0.801-3.4,5.383-22.814,5.383-22.814   s-1.334-2.673-1.334-6.625c0-6.205,3.596-10.837,8.074-10.837c3.807,0,5.645,2.859,5.645,6.286c0,3.828-2.436,9.552-3.693,14.856   c-1.051,4.441,2.225,8.064,6.605,8.064c7.933,0,13.272-10.188,13.272-22.261c0-9.174-6.176-16.044-17.418-16.044   c-12.697,0-20.615,9.471-20.615,20.052c0,3.646,1.078,6.221,2.764,8.21c0.773,0.915,0.883,1.283,0.602,2.333   c-0.203,0.771-0.66,2.625-0.854,3.358c-0.279,1.062-1.137,1.44-2.098,1.049c-5.846-2.387-8.572-8.793-8.572-15.994   c0-11.893,10.029-26.154,29.922-26.154c15.985,0,26.506,11.566,26.506,23.984C77.089,52.839,67.956,65.109,54.499,65.109z"></path>
-</g></svg></span>
-                    </a>
+              <div class="u-size-28">
+                <div class="u-layout-col">
+                  <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
+                    <div class="u-container-layout u-container-layout-2">
+                      <h1 class="u-custom-font u-font-playfair-display u-text u-text-1">contact us</h1>
+                      <div class="u-social-icons u-spacing-38 u-social-icons-1">
+                        <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="-110 1 511 511.99996" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8ddc"></use></svg><svg class="u-svg-content" viewBox="-110 1 511 511.99996" id="svg-8ddc"><path d="m180 512h-81.992188c-13.695312 0-24.835937-11.140625-24.835937-24.835938v-184.9375h-47.835937c-13.695313 0-24.835938-11.144531-24.835938-24.835937v-79.246094c0-13.695312 11.140625-24.835937 24.835938-24.835937h47.835937v-39.683594c0-39.347656 12.355469-72.824219 35.726563-96.804688 23.476562-24.089843 56.285156-36.820312 94.878906-36.820312l62.53125.101562c13.671875.023438 24.792968 11.164063 24.792968 24.835938v73.578125c0 13.695313-11.136718 24.835937-24.828124 24.835937l-42.101563.015626c-12.839844 0-16.109375 2.574218-16.808594 3.363281-1.152343 1.308593-2.523437 5.007812-2.523437 15.222656v31.351563h58.269531c4.386719 0 8.636719 1.082031 12.289063 3.121093 7.878906 4.402344 12.777343 12.726563 12.777343 21.722657l-.03125 79.246093c0 13.6875-11.140625 24.828125-24.835937 24.828125h-58.46875v184.941406c0 13.695313-11.144532 24.835938-24.839844 24.835938zm-76.8125-30.015625h71.632812v-193.195313c0-9.144531 7.441407-16.582031 16.582032-16.582031h66.726562l.027344-68.882812h-66.757812c-9.140626 0-16.578126-7.4375-16.578126-16.582031v-44.789063c0-11.726563 1.191407-25.0625 10.042969-35.085937 10.695313-12.117188 27.550781-13.515626 39.300781-13.515626l36.921876-.015624v-63.226563l-57.332032-.09375c-62.023437 0-100.566406 39.703125-100.566406 103.609375v53.117188c0 9.140624-7.4375 16.582031-16.578125 16.582031h-56.09375v68.882812h56.09375c9.140625 0 16.578125 7.4375 16.578125 16.582031zm163.0625-451.867187h.003906zm0 0"></path></svg></span>
+                        </a>
+                        <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 24 24" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-52b6"></use></svg><svg class="u-svg-content" viewBox="0 0 24 24" id="svg-52b6"><path d="m.473 19.595c2.222 1.41 4.808 2.155 7.478 2.155 3.91 0 7.493-1.502 10.09-4.229 2.485-2.61 3.852-6.117 3.784-9.676.942-.806 2.05-2.345 2.05-3.845 0-.575-.624-.94-1.13-.647-.885.52-1.692.656-2.522.423-1.695-1.652-4.218-2-6.344-.854-1.858 1-2.891 2.83-2.798 4.83-3.139-.383-6.039-1.957-8.061-4.403-.332-.399-.962-.352-1.226.1-.974 1.668-.964 3.601-.117 5.162-.403.071-.652.41-.652.777 0 1.569.706 3.011 1.843 3.995-.212.204-.282.507-.192.777.5 1.502 1.632 2.676 3.047 3.264-1.539.735-3.241.98-4.756.794-.784-.106-1.171.948-.494 1.377zm7.683-1.914c.561-.431.263-1.329-.441-1.344-1.24-.026-2.369-.637-3.072-1.598.339-.022.69-.074 1.024-.164.761-.206.725-1.304-.048-1.459-1.403-.282-2.504-1.304-2.917-2.62.377.093.761.145 1.144.152.759.004 1.046-.969.427-1.376-1.395-.919-1.99-2.542-1.596-4.068 2.436 2.468 5.741 3.955 9.237 4.123.501.031.877-.44.767-.917-.475-2.059.675-3.502 1.91-4.167 1.222-.66 3.184-.866 4.688.712.447.471 1.955.489 2.722.31-.344.648-.873 1.263-1.368 1.609-.211.148-.332.394-.319.651.161 3.285-1.063 6.551-3.358 8.96-2.312 2.427-5.509 3.764-9.004 3.764-1.39 0-2.753-.226-4.041-.662 1.54-.298 3.003-.95 4.245-1.906z"></path></svg></span>
+                        </a>
+                        <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 24 24" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-46a1"></use></svg><svg class="u-svg-content" viewBox="0 0 24 24" id="svg-46a1"><path d="m13.192 13.94c-.929-1.05-1.793-7.608-1.856-7.93-.591-3.766-2.522-4.385-4.042-4.236-1.873.176-4.375 2.8-7.04 5.151-.296.262-.339.708-.097 1.021l1.059 1.369c.245.318.697.387 1.024.156.891-.626 1.264-.841 1.408-.914 1.979.66 2.032 13.959 7.22 13.959 5.144 0 16.863-14.665 11.984-19.88-1.869-2-7.848-2.168-9.943 4.679-.188.615.439 1.165 1.021.905.453-.201.911-.303 1.361-.303.665 0 .714.25.75.433.304 1.547-2.008 4.976-2.849 5.59zm4.372-5.326c0-.649-.186-1.175-.553-1.561-.486-.511-1.288-.706-2.183-.613 1.793-4.034 5.86-3.922 6.928-2.78 3.513 3.761-6.54 17.355-10.889 17.355-3.865 0-3.507-13.972-7.296-13.972-.254 0-.521.062-1.604.792l-.196-.252c1.524-1.374 4.406-4.196 5.665-4.314 2.436-.245 2.385 3.38 2.516 3.622.958 6.439 1.771 8.613 3.219 8.613 1.519-.002 4.393-4.508 4.393-6.89z"></path></svg></span>
+                        </a>
+                        <a class="u-social-url" target="_blank" title="Instagram" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512.00096 512.00096" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5be9"></use></svg><svg class="u-svg-content" viewBox="0 0 512.00096 512.00096" id="svg-5be9"><path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"></path><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"></path><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"></path></svg></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-3">
+                    <div class="u-container-layout u-valign-top u-container-layout-3">
+                      <h6 class="u-text u-text-2">+44 7950167243<br>+972 533408990
+                      </h6>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -991,65 +407,24 @@ The app contains a unique journaling system, a mood calendar to track users’ f
         </div>
       </div>
     </section>
-    <section class="u-align-center u-clearfix u-grey-90 u-section-14" id="sec-8ab1">
-      <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
-        <h2 class="u-text u-text-1" data-animation-name="jackInTheBox" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">Get in touch</h2>
-        <div class="u-expanded-width-xs u-form u-form-1">
-          <form action="#" method="POST" class="u-clearfix u-form-spacing-40 u-form-vertical u-inner-form" source="custom">
-            <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-1">
-              <label for="name-e4cc" class="u-form-control-hidden u-label u-text-body-alt-color u-label-1" wfd-invisible="true">Name</label>
-              <input type="text" placeholder="First Name" id="name-e4cc" name="First_Name" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-grey-80 u-input u-input-rectangle u-text-body-alt-color u-input-1" required="" spellcheck="false">
-            </div>
-          
-            <div class="u-form-group u-form-partition-factor-2 u-form-group-3">
-              <label for="text-3f0a" class="u-form-control-hidden u-label u-text-body-alt-color u-label-3"></label>
-              <input type="text" placeholder="Last Name" id="text-3f0a" name="Last Name" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-grey-80 u-input u-input-rectangle u-text-body-alt-color u-input-3">
-            </div>
-              <div class="u-form-email u-form-group u-form-partition-factor-2 u-form-group-2">
-              <label for="email-e4cc" class="u-form-control-hidden u-label u-text-body-alt-color u-label-2" wfd-invisible="true">Email</label>
-              <input type="email" id="email-e4cc" name="email-e4cc" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-grey-80 u-input u-input-rectangle u-text-body-alt-color u-input-2" required="" placeholder="Email">
-            </div>
-            <div class="u-form-group u-form-partition-factor-2 u-form-phone u-form-group-4">
-              <label for="phone-306f" class="u-form-control-hidden u-label u-text-body-alt-color u-label-4"></label>
-              <input type="tel" pattern="\+?\d{0,3}[\s\(\-]?([0-9]{2,3})[\s\)\-]?([\s\-]?)([0-9]{3})[\s\-]?([0-9]{2})[\s\-]?([0-9]{2})" placeholder="Phone Number (e.g.+972533408990)" id="phone-306f" name="Phone" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-grey-80 u-input u-input-rectangle u-text-body-alt-color u-input-4" required="" spellcheck="false">
-            </div>
-            <div class="u-form-group u-form-message u-form-group-5">
-              <label for="message-e4cc" class="u-form-control-hidden u-label u-text-body-alt-color u-label-5" wfd-invisible="true">Message</label>
-              <textarea placeholder="Enter your message" rows="4" cols="50" id="message-e4cc" name="message-e4cc" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-grey-80 u-input u-input-rectangle u-text-body-alt-color u-input-5"></textarea>
-            </div>
-            <div class="u-align-center u-form-group u-form-submit u-form-group-6">
-              <a href="#" class="u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-dark-1 u-palette-4-base u-radius-50 u-btn-1">Submit</a>
-              <input type="submit" value="submit" name="submit" class="u-form-control-hidden u-grey-5" wfd-invisible="true" onclick="snackbar()">
-            </div>
-            <!-- <div class="u-form-send-message u-form-send-success" wfd-invisible="true">Thank you! Your message has been sent.</div> -->
-            <div class="u-form-send-error u-form-send-message" wfd-invisible="true">Message Sent Successfully, We'll get back to you as soon as we can :)</div>
-            <input type="hidden" value="" name="recaptchaResponse" wfd-invisible="true">
-          </form>
-        </div>
-      </div>
-    </section>
     
     
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-a418"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">© All the rights are reserved for Aster<br>Made with ❤ by Aster's developers
-        </p>
-      </div></footer><span style="height: 64px; width: 64px; margin-left: 0px; margin-right: auto; margin-top: 0px; background-image: none; right: 20px; bottom: 20px" class="u-back-to-top u-icon u-icon-circle u-opacity u-opacity-85 u-palette-1-base u-spacing-15" data-href="#">
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-1694"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/html5-template" target="_blank">
+        <span>HTML5 Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="https://nicepage.com/html-website-builder" target="_blank">
+        <span>HTML Creator</span>
+      </a>. 
+    </section><span style="height: 64px; width: 64px; margin-left: 0px; margin-right: auto; margin-top: 0px; background-image: none; right: 20px; bottom: 20px" class="u-back-to-top u-custom-color-2 u-icon u-icon-circle u-opacity u-opacity-85 u-spacing-15" data-href="#">
         <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 551.13 551.13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d98"></use></svg>
         <svg class="u-svg-content" enable-background="new 0 0 551.13 551.13" viewBox="0 0 551.13 551.13" xmlns="http://www.w3.org/2000/svg" id="svg-1d98"><path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path></svg>
     </span>
-
-
-
-     <script>
-function snackbar() {
-  var x = document.getElementById("snackbar");
-  x.className = "show";
-  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-}
-</script>
-  <div id="snackbar">Sending the message...</div>
-
-
-
   </body>
 </html>
